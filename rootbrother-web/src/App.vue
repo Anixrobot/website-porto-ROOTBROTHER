@@ -23,7 +23,7 @@ onMounted(() => {
 
 <template>
   <LoadingScreen v-if="isLoading" :progress="progress" />
-  <div v-else class="min-h-screen flex flex-col bg-[#051329]">
+  <div v-else class="min-h-screen flex flex-col bg-[#030B18]">
     <Navbar />
     <main class="grow">
       <router-view v-slot="{ Component }">

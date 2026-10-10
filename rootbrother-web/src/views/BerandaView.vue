@@ -6,7 +6,7 @@ import CtaBanner from '../components/sections/beranda/CtaBanner.vue'
 </script>
 
 <template>
-  <div class="bg-[#051329]">
+  <div class="bg-[#030B18]">
     <HeroSection />
     <MetricBar />
     <ServiceTeaser />

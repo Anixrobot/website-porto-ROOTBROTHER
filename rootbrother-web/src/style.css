@@ -1,54 +1,46 @@
 @import "tailwindcss";
 
-/* =============================================
-   ROOTBROTHER — Custom Theme Tokens (Tailwind v4)
-   ============================================= */
 @theme {
   /* ---------- Colors ---------- */
-  --color-rb-dark: #051329;
-  --color-rb-dark-card: #0A192F;
-  --color-rb-dark-surface: #0E223D;
-  --color-rb-dark-border: rgba(16, 185, 129, 0.2);
+  --color-rb-dark: #030B18;
+  --color-rb-dark-card: #0E1B32;
+  --color-rb-dark-surface: #1D2A41;
+  --color-rb-dark-border: rgba(78, 222, 163, 0.2);
 
-  --color-rb-light: #FFFFFF;
-  --color-rb-light-surface: #F8FAFC;
-  --color-rb-light-soft: #F0FDF4;
-  --color-rb-light-border: #E2E8F0;
+  --color-rb-emerald: #4EDEA3;
+  --color-rb-emerald-hover: #3BC28C;
+  --color-rb-emerald-glow: rgba(78, 222, 163, 0.1);
+  --color-rb-cyan: #4FDBC8;
 
-  --color-rb-emerald: #10B981;
-  --color-rb-emerald-hover: #059669;
-  --color-rb-emerald-glow: #34D399;
-  --color-rb-cyan: #06B6D4;
-
-  --color-rb-heading-dark: #F8FAFC;
-  --color-rb-text-dark: #94A3B8;
+  --color-rb-heading-dark: #FFFFFF;
+  --color-rb-text-dark: #BBCABF;
   --color-rb-heading-light: #0F172A;
-  --color-rb-text-light: #475569;
+  --color-rb-text-light: #64748B;
+  --color-rb-text-btn: #003824;
+  --color-rb-accent-blue: #D7E3FF;
 
   /* ---------- Font family ---------- */
   --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
 
   /* ---------- Border radius ---------- */
-  --radius-card: 16px;
-  --radius-sub: 12px;
+  --radius-card: 12px;
+  --radius-card-lg: 16px;
+  --radius-sub: 8px;
 }
 
-/* =============================================
-   Base Reset & Defaults
-   ============================================= */
 html {
   scroll-behavior: smooth;
+  background-color: var(--color-rb-dark);
 }
 
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-rb-dark);
+  color: var(--color-rb-text-dark);
 }
 
-/* =============================================
-   Scrollbar (optional polish)
-   ============================================= */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--color-rb-emerald); border-radius: 999px; }
