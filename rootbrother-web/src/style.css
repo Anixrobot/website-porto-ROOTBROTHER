@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* =============================================
+   ROOTBROTHER — Custom Theme Tokens (Tailwind v4)
+   ============================================= */
+@theme {
+  /* ---------- Colors ---------- */
+  --color-rb-dark: #051329;
+  --color-rb-dark-card: #0A192F;
+  --color-rb-dark-surface: #0E223D;
+  --color-rb-dark-border: rgba(16, 185, 129, 0.2);
+
+  --color-rb-light: #FFFFFF;
+  --color-rb-light-surface: #F8FAFC;
+  --color-rb-light-soft: #F0FDF4;
+  --color-rb-light-border: #E2E8F0;
+
+  --color-rb-emerald: #10B981;
+  --color-rb-emerald-hover: #059669;
+  --color-rb-emerald-glow: #34D399;
+  --color-rb-cyan: #06B6D4;
+
+  --color-rb-heading-dark: #F8FAFC;
+  --color-rb-text-dark: #94A3B8;
+  --color-rb-heading-light: #0F172A;
+  --color-rb-text-light: #475569;
+
+  /* ---------- Font family ---------- */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  /* ---------- Border radius ---------- */
+  --radius-card: 16px;
+  --radius-sub: 12px;
+}
+
+/* =============================================
+   Base Reset & Defaults
+   ============================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =============================================
+   Scrollbar (optional polish)
+   ============================================= */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-rb-emerald); border-radius: 999px; }
