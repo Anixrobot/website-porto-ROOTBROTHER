@@ -1,8 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <section class="py-20 max-w-7xl mx-auto px-6">
+  <section class="py-20 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="flex flex-col lg:flex-row justify-between items-start gap-6">
       <div>
         <div class="text-rb-emerald text-xs tracking-widest uppercase font-semibold">
@@ -42,7 +39,7 @@
         <div class="text-rb-emerald text-xs font-mono font-bold uppercase tracking-wider">
           03 / SPRINT SPRINT
         </div>
-        <h3 class="text-white font-bold text-base mt-3">Coding & QA Testing</h3>
+        <h3 class="text-white font-bold text-base mt-3">Coding &amp; QA Testing</h3>
         <p class="text-rb-text-dark text-sm mt-2 leading-relaxed">
           Pengembangan bertahap dengan unit test, code review, dan preview berkala.
         </p>
@@ -52,7 +49,7 @@
         <div class="text-rb-emerald text-xs font-mono font-bold uppercase tracking-wider">
           04 / DEPLOYMENT
         </div>
-        <h3 class="text-white font-bold text-base mt-3">Peluncuran & Garansi</h3>
+        <h3 class="text-white font-bold text-base mt-3">Peluncuran &amp; Garansi</h3>
         <p class="text-rb-text-dark text-sm mt-2 leading-relaxed">
           Rilis live di server production, serah terima dokumentasi, dan garansi bug 100%.
         </p>
@@ -60,3 +57,5 @@
     </div>
   </section>
 </template>
+
+

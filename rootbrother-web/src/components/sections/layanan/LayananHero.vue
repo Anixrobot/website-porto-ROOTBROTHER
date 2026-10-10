@@ -10,15 +10,16 @@ const emit = defineEmits(['update:filter'])
 
 const filters = [
   { value: 'all', label: 'Semua Layanan' },
-  { value: 'web', label: 'Web & App' },
-  { value: 'cloud', label: 'Cloud & API' },
+  { value: 'web', label: 'Web &amp; App' },
+  { value: 'cloud', label: 'Cloud &amp; API' },
   { value: 'optimasi', label: 'Optimasi' }
 ]
 </script>
 
 <template>
-  <section class="pt-28 pb-12 text-center max-w-4xl mx-auto px-6">
-    <div class="inline-flex items-center gap-2 bg-rb-emerald/10 border border-rb-emerald/20 text-rb-emerald text-xs tracking-widest uppercase font-semibold px-4 py-1.5 rounded-full">
+  <section class="pt-28 pb-12 text-center w-full px-6 md:px-12 lg:px-24 2xl:px-32">
+    <div class="max-w-4xl mx-auto">
+      <div class="inline-flex items-center gap-2 bg-rb-emerald/10 border border-rb-emerald/20 text-rb-emerald text-xs tracking-widest uppercase font-semibold px-4 py-1.5 rounded-full">
       ● ROOTBROTHER DIGITAL SERVICE
     </div>
 
@@ -64,5 +65,8 @@ const filters = [
         {{ filter.label }}
       </button>
     </div>
+    </div>
   </section>
 </template>
+
+

@@ -13,3 +13,4 @@ import CtaBanner from '../components/sections/beranda/CtaBanner.vue'
     <CtaBanner />
   </div>
 </template>
+

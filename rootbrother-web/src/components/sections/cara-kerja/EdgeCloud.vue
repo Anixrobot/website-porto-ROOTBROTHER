@@ -1,7 +1,6 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-12">
-    <h2 class="text-2xl font-bold text-rb-heading-light text-center mb-10">Hosting Generasi Baru: Cepat, Aman & Hemat Biaya</h2>
+  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-12">
+    <h2 class="text-2xl font-bold text-rb-heading-light text-center mb-10">Hosting Generasi Baru: Cepat, Aman &amp; Hemat Biaya</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-white border border-rb-light-border rounded-2xl p-6 text-center shadow-sm">
         <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">⚡</div>
@@ -10,7 +9,7 @@
       </div>
       <div class="bg-white border border-rb-light-border rounded-2xl p-6 text-center shadow-sm">
         <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">🔒</div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Keamanan Terjamin & SSL Gratis</h3>
+        <h3 class="font-bold text-rb-heading-light mb-2">Keamanan Terjamin &amp; SSL Gratis</h3>
         <p class="text-sm text-rb-text-light">Sertifikat SSL otomatis aktif selamanya. Terlindungi dari serangan DDoS tanpa biaya tambahan.</p>
       </div>
       <div class="bg-white border border-rb-light-border rounded-2xl p-6 text-center shadow-sm">
@@ -21,3 +20,5 @@
     </div>
   </section>
 </template>
+
+

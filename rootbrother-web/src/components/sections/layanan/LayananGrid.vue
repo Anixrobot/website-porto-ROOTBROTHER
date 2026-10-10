@@ -16,7 +16,7 @@ const filteredServices = computed(() => {
 </script>
 
 <template>
-  <section class="py-8 max-w-7xl mx-auto px-6">
+  <section class="py-8 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="service in filteredServices"
@@ -55,3 +55,5 @@ const filteredServices = computed(() => {
     </div>
   </section>
 </template>
+
+

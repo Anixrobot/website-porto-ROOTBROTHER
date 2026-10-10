@@ -1,8 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <section class="py-6 max-w-7xl mx-auto px-6">
+  <section class="py-6 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
       <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6">
         <div class="text-white text-3xl md:text-4xl font-bold">50+</div>
@@ -27,3 +24,5 @@
     </div>
   </section>
 </template>
+
+

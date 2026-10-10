@@ -4,7 +4,7 @@ import logoImg from '@/assets/logo-rootbrother.png'
 
 <template>
   <footer class="bg-rb-dark border-t border-[rgba(78,222,163,0.1)] pt-16 pb-8">
-    <div class="max-w-7xl mx-auto px-6">
+    <div class="w-full px-6 md:px-12 lg:px-24 2xl:px-32">
       
       <!-- Top section -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">

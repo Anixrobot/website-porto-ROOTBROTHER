@@ -83,8 +83,10 @@ const submitForm = () => {
       </div>
 
       <button type="submit" class="w-full py-4 rounded-xl bg-rb-emerald text-white font-bold text-lg hover:bg-rb-emerald-hover transition-colors shadow-lg shadow-emerald-200">
-        Kirim Brief & Mulai Diskusi ▷
+        Kirim Brief &amp; Mulai Diskusi ▷
       </button>
     </form>
   </div>
 </template>
+
+

@@ -3,7 +3,7 @@ import logoImg from '@/assets/logo-rootbrother.png'
 </script>
 
 <template>
-  <section class="pt-28 pb-16 max-w-7xl mx-auto px-6">
+  <section class="pt-28 pb-16 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="flex flex-col lg:flex-row items-center gap-12">
       <!-- Left Side -->
       <div class="lg:w-3/5">
@@ -32,8 +32,8 @@ import logoImg from '@/assets/logo-rootbrother.png'
 
         <div class="mt-10">
           <div class="flex items-center gap-2 flex-wrap">
-            <span class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</span>
-            <span class="text-rb-text-dark text-sm">Dipercaya 50+ startup dan enterprise di Indonesia</span>
+            
+          
           </div>
           <div class="w-full h-px bg-[rgba(78,222,163,0.1)] mt-4"></div>
         </div>
@@ -47,3 +47,5 @@ import logoImg from '@/assets/logo-rootbrother.png'
     </div>
   </section>
 </template>
+
+

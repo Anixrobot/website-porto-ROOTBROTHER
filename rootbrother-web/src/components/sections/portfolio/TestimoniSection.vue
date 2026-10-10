@@ -1,6 +1,5 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-24">
+  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-24">
     <div class="mb-12">
       <div class="inline-block px-3 py-1 rounded-full bg-rb-dark-card border border-rb-dark-border text-xs text-rb-emerald font-semibold mb-4">
         SUARA PARTNER KAMI
@@ -51,3 +50,5 @@
     </div>
   </section>
 </template>
+
+

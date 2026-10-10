@@ -1,8 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <section class="py-12 max-w-7xl mx-auto px-6">
+  <section class="py-12 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-10 md:p-16 text-center">
       <div class="text-rb-emerald text-xs tracking-widest uppercase font-semibold">
         🔐 DISKUSI TANPA KOMITMEN
@@ -24,3 +21,5 @@
     </div>
   </section>
 </template>
+
+

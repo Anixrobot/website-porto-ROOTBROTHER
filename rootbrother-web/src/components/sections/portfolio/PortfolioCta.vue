@@ -1,6 +1,5 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 pb-20">
+  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 pb-20">
     <div class="bg-rb-dark-card border border-rb-dark-border rounded-2xl py-12 px-6 flex flex-col items-center text-center">
       <h2 class="text-3xl font-bold text-white mb-4">Siap Berkolaborasi?</h2>
       <p class="text-rb-text-dark mb-8 max-w-lg">Proyek Anda bisa jadi kesuksesan kami selanjutnya. Mari bangun hal hebat bersama.</p>
@@ -15,3 +14,5 @@
     </div>
   </section>
 </template>
+
+

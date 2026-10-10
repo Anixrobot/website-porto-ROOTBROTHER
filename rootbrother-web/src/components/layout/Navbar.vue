@@ -17,7 +17,7 @@ watch(
 
 <template>
   <nav class="fixed top-0 w-full z-50 bg-rb-dark/95 backdrop-blur-md border-b border-[rgba(78,222,163,0.1)]">
-    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <div class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 h-16 flex items-center justify-between">
       
       <!-- LEFT - Logo area -->
       <router-link to="/" class="flex items-center gap-3">

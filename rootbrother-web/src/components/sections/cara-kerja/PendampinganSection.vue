@@ -1,6 +1,5 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-20">
+  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-20">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div>
         <h2 class="text-3xl font-bold text-rb-heading-light mb-6">Anda Fokus Bisnis, Kami yang Siapkan Semuanya</h2>
@@ -24,3 +23,5 @@
     </div>
   </section>
 </template>
+
+

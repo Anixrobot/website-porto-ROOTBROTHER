@@ -35,16 +35,4 @@ export const projects = [
     metric: { label: 'Kecepatan', value: 'Latensi Telemetri <100ms' },
     link: '#'
   },
-  {
-    id: 4,
-    title: 'EduTrack - Portal Akademik Siswa',
-    category: 'webapp',
-    tags: ['EdTech', 'Portal', 'Education'],
-    year: '2023',
-    description: 'Portal akademik terpadu yang menjembatani informasi antara sekolah, siswa, dan orang tua.',
-    tech: ['React', 'Vite', 'Node.js API'],
-    status: 'Live Deployed',
-    metric: { label: 'Skala', value: 'Diadopsi 12 Institusi' },
-    link: '#'
-  }
-];
+  

@@ -18,6 +18,8 @@
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.29",
     "tailwindcss": "^4.3.3",
-    "vite": "^8.3.0"
+    "typescript": "^5.4.5",
+    "vite": "^8.3.0",
+    "vue-tsc": "^2.0.19"
   }
 }

@@ -9,7 +9,7 @@ const filters = [
 ];
 </script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 pt-32 pb-16">
+  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 pt-32 pb-16">
     <div class="max-w-3xl">
       <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-rb-dark-card border border-rb-dark-border text-rb-emerald text-sm mb-6">
         <span class="w-2 h-2 rounded-full bg-rb-emerald"></span>
@@ -41,3 +41,5 @@ const filters = [
     </div>
   </section>
 </template>
+
+

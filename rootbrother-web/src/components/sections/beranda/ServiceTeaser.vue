@@ -1,8 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <section class="py-20 max-w-7xl mx-auto px-6">
+  <section class="py-20 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="text-rb-emerald text-xs tracking-widest uppercase font-semibold">
       LAYANAN UNGGULAN
     </div>
@@ -68,3 +65,5 @@
     </div>
   </section>
 </template>
+
+

@@ -17,17 +17,9 @@ export const services = [
     desc: 'Representasi visual digital profesional untuk memperkuat otoritas merek dagang, menjangkau audiens baru, dan mempermudah konversi konsumen.',
     features: ['Katalog produk terintegrasi WhatsApp', 'CMS mandiri tanpa kode rumit', 'Setup domain, SSL & email bisnis']
   },
+  
   {
     id: 3,
-    icon: '🏢',
-    title: 'Full-Stack Web App Kompleks',
-    category: 'Enterprise',
-    filterTag: 'web',
-    desc: 'Rekayasa aplikasi berbasis cloud berskala besar dengan arsitektur microservices, pipelines asynchronous, dan keamanan perbankan berlapis.',
-    features: ['RESTful & GraphQL API pipelines', 'Role-based access control (RBAC)', 'Integrasi PostgreSQL & Redis cache']
-  },
-  {
-    id: 4,
     icon: '📊',
     title: 'Admin Dashboard & Control Panel',
     category: 'Analytics',
@@ -36,21 +28,13 @@ export const services = [
     features: ['Data visualisasi live telemetry', 'Ekspor laporan (PDF, Excel, JSON)', 'Audit log & multi-tier user privilege']
   },
   {
-    id: 5,
+    id: 4,
     icon: '💰',
-    title: 'Catatan Keuangan & POS Digital',
+    title: 'Catatan Keuangan & Aplikasi Kasir Pintar',
     category: 'Finansial',
     filterTag: 'cloud',
     desc: 'Aplikasi kasir pintar dan rekonsiliasi finansial otomatis dengan pembukuan real-time, manajemen inventaris, dan cetak struk multi-kanal.',
     features: ['Mendukung mode offline & auto-sync', 'Integrasi QRIS & payment gateway', 'Rekap laba kotor & operasional otomatis']
   },
-  {
-    id: 6,
-    icon: '⚡',
-    title: 'Optimasi, SEO & Maintenance',
-    category: 'Performa',
-    filterTag: 'optimasi',
-    desc: 'Penyempurnaan arsitektur website eksisting, perbaikan indexing search engine, mitigasi kerentanan keamanan, dan pemeliharaan berkala bergaransi.',
-    features: ['Technical SEO & Rich Snippets structured data', 'Auditing database & query optimization', 'SLA uptime & patching keamanan rutin']
-  }
+  
 ]

@@ -28,3 +28,5 @@ const faqs = [
     </div>
   </section>
 </template>
+
+

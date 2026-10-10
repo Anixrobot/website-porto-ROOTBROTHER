@@ -1,8 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <section class="py-8 max-w-7xl mx-auto px-6">
+  <section class="py-8 w-full px-6 md:px-12 lg:px-24 2xl:px-32">
     <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
       <div class="max-w-xl">
         <h3 class="text-white text-2xl md:text-3xl font-bold">Siap Membangun Solusi Digital Anda?</h3>
@@ -21,3 +18,5 @@
     </div>
   </section>
 </template>
+
+
