@@ -5,7 +5,7 @@
       <div class="inline-block px-3 py-1 rounded-full bg-rb-dark-card border border-rb-dark-border text-xs text-rb-emerald font-semibold mb-4">
         SUARA PARTNER KAMI
       </div>
-      <h2 class="text-3xl font-bold text-white">Hasil Yang Bicara.</h2>
+      <h2 class="text-3xl font-bold text-white">Hasil Yang <span class="text-transparent bg-clip-text bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Bicara.</span></h2>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -9,7 +9,7 @@ const activeFilter = ref('all')
 </script>
 
 <template>
-  <div class="bg-[#030B18]">
+  <div class="bg-rb-dark">
     <LayananHero :activeFilter="activeFilter" @update:filter="activeFilter = $event" />
     <LayananGrid :activeFilter="activeFilter" />
     <AlurRekayasa />

@@ -1,50 +1,60 @@
-<script setup></script>
 <template>
-  <div>
-    <div class="flex items-center gap-3 mb-6">
-      <h3 class="text-2xl font-bold text-rb-heading-light">Terhubung Tanpa Hambatan</h3>
-      <span class="px-2 py-1 bg-red-50 text-red-600 border border-red-200 rounded-md text-xs font-bold">Prioritas Respon</span>
-    </div>
-    
-    <div class="space-y-4 mb-8">
-      <a href="https://wa.me/6281289007611" target="_blank" class="block p-5 border border-rb-light-border rounded-xl hover:border-rb-emerald hover:shadow-sm transition-all bg-white group">
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center text-green-600 text-xl group-hover:scale-110 transition-transform">WA</div>
-          <div>
-            <div class="font-bold text-rb-heading-light">WhatsApp Business</div>
-            <div class="text-sm text-rb-text-light">+62 812-8900-7611</div>
+  <section class="max-w-7xl mx-auto px-6 py-10 w-full">
+    <div class="flex flex-col lg:flex-row gap-10">
+      <div class="lg:w-1/2 flex flex-col gap-4">
+        <a href="#" class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover hover:border-rb-emerald/50 transition-all duration-300 rounded-[12px] p-5 flex items-center justify-between group">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-rb-dark-surface rounded-full flex items-center justify-center text-rb-emerald group-hover:bg-rb-emerald group-hover:text-rb-text-btn transition-colors">💬</div>
+            <div>
+              <h3 class="text-white text-[20px] font-semibold">WhatsApp Direct</h3>
+              <p class="text-rb-text-dark text-[16px]">+62 812-8900-7611</p>
+            </div>
           </div>
+          <span class="text-rb-emerald font-bold">&rarr;</span>
+        </a>
+        <a href="#" class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover hover:border-rb-emerald/50 transition-all duration-300 rounded-[12px] p-5 flex items-center justify-between group">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-rb-dark-surface rounded-full flex items-center justify-center text-rb-emerald group-hover:bg-rb-emerald group-hover:text-rb-text-btn transition-colors">👾</div>
+            <div>
+              <h3 class="text-white text-[20px] font-semibold">Discord Dev Hub</h3>
+              <p class="text-rb-text-dark text-[16px]">Join Rootbrother Server</p>
+            </div>
+          </div>
+          <span class="text-rb-emerald font-bold">&rarr;</span>
+        </a>
+        <a href="#" class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover hover:border-rb-emerald/50 transition-all duration-300 rounded-[12px] p-5 flex items-center justify-between group">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-rb-dark-surface rounded-full flex items-center justify-center text-rb-emerald group-hover:bg-rb-emerald group-hover:text-rb-text-btn transition-colors">📸</div>
+            <div>
+              <h3 class="text-white text-[20px] font-semibold">Instagram Resmi</h3>
+              <p class="text-rb-text-dark text-[16px]">@rootbrother</p>
+            </div>
+          </div>
+          <span class="text-rb-emerald font-bold">&rarr;</span>
+        </a>
+        
+        <div class="mt-6 pt-6 border-t border-rb-dark-border">
+          <h4 class="text-white font-semibold mb-2 text-[20px]">Jam Operasional (WIB)</h4>
+          <p class="text-rb-text-dark text-[16px] leading-relaxed">Senin - Jumat: 09:00 - 18:00<br/>Sabtu: 10:00 - 15:00</p>
         </div>
-      </a>
+      </div>
       
-      <a href="#" class="block p-5 border border-rb-light-border rounded-xl hover:border-indigo-500 hover:shadow-sm transition-all bg-white group">
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 bg-indigo-50 rounded-full flex items-center justify-center text-indigo-600 text-xl group-hover:scale-110 transition-transform">DC</div>
-          <div>
-            <div class="font-bold text-rb-heading-light">Discord Community</div>
-            <div class="text-sm text-rb-text-light">Join Rootbrother Server</div>
+      <div class="lg:w-1/2">
+        <div class="bg-rb-dark-card border border-rb-dark-border rounded-[16px] overflow-hidden h-full flex flex-col">
+          <div class="bg-rb-dark-surface h-64 flex items-center justify-center relative">
+            <div class="absolute inset-0 bg-rb-emerald opacity-[0.05]"></div>
+            <span class="text-rb-text-dark text-[14px] font-semibold tracking-widest uppercase">[Map Interface Placeholder]</span>
+          </div>
+          <div class="p-8">
+            <h3 class="text-white font-semibold mb-3 text-[20px]">LAB & HEADQUARTER</h3>
+            <p class="text-rb-text-dark text-[16px] leading-relaxed">
+              District 8, SCBD<br/>
+              Jl. Jend. Sudirman Kav 52-53<br/>
+              Jakarta Selatan, 12190
+            </p>
           </div>
         </div>
-      </a>
-      
-      <a href="#" class="block p-5 border border-rb-light-border rounded-xl hover:border-pink-500 hover:shadow-sm transition-all bg-white group">
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 bg-pink-50 rounded-full flex items-center justify-center text-pink-600 text-xl group-hover:scale-110 transition-transform">IG</div>
-          <div>
-            <div class="font-bold text-rb-heading-light">Instagram</div>
-            <div class="text-sm text-rb-text-light">@rootbrother</div>
-          </div>
-        </div>
-      </a>
+      </div>
     </div>
-
-    <div class="mb-8">
-      <h4 class="font-bold text-rb-heading-light mb-2">Jam Operasional (WIB)</h4>
-      <p class="text-sm text-rb-text-light">Senin - Jumat: 09:00 - 18:00<br/>Sabtu: 10:00 - 15:00</p>
-    </div>
-
-    <div class="bg-rb-light-surface rounded-2xl h-48 border border-rb-light-border flex items-center justify-center">
-      <span class="text-sm text-rb-text-light italic">[Google Maps Placeholder]</span>
-    </div>
-  </div>
-</template>
+  </section>
+</template>\n

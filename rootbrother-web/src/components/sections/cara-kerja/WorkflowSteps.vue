@@ -1,47 +1,50 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-20 bg-rb-light-surface rounded-3xl mb-20">
-    <div class="text-center mb-12">
-      <p class="text-sm font-bold text-rb-emerald tracking-widest mb-2 uppercase">Step by Step Guide</p>
-      <h2 class="text-3xl font-bold text-rb-heading-light">4 Langkah Mudah Menuju Website Idaman</h2>
-    </div>
+  <section class="max-w-7xl mx-auto px-6 py-12">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white border border-rb-light-border rounded-2xl p-6 shadow-sm relative">
-        <div class="flex justify-between items-start mb-4">
-          <span class="text-4xl font-bold text-rb-emerald opacity-20">01</span>
-          <span class="px-2.5 py-1 bg-rb-light-surface text-xs font-semibold rounded-md border border-rb-light-border">1 - 2 Hari</span>
+      <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-all duration-300 rounded-xl p-6 relative overflow-hidden group">
+        <div class="absolute -top-4 -right-4 text-8xl font-bold text-rb-dark-surface opacity-50 group-hover:text-rb-emerald/10 transition-colors">01</div>
+        <div class="relative z-10">
+          <div class="inline-block bg-rb-dark-surface text-rb-emerald text-[11px] px-3 py-1 rounded mb-4 font-semibold tracking-wider">1 - 2 Hari</div>
+          <h3 class="text-[20px] lg:text-[24px] font-semibold text-white mb-3">Diskusi Konsep</h3>
+          <p class="text-rb-text-dark text-base mb-4">Membahas tujuan bisnis, target audiens, dan referensi desain.</p>
+          <ul class="text-rb-text-dark text-sm space-y-2">
+            <li class="flex items-center gap-2"><span class="text-rb-emerald">✓</span> Requirement Gathering</li>
+          </ul>
         </div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Diskusi Konsep & Rencana</h3>
-        <p class="text-sm text-rb-text-light mb-4">Membahas tujuan bisnis, target audiens, dan referensi desain untuk menentukan cakupan.</p>
-        <div class="w-6 h-6 rounded-full bg-rb-emerald/10 flex items-center justify-center text-rb-emerald absolute bottom-6 right-6">✓</div>
       </div>
-      <div class="bg-white border border-rb-light-border rounded-2xl p-6 shadow-sm relative">
-        <div class="flex justify-between items-start mb-4">
-          <span class="text-4xl font-bold text-rb-emerald opacity-20">02</span>
-          <span class="px-2.5 py-1 bg-rb-light-surface text-xs font-semibold rounded-md border border-rb-light-border">4 - 6 Hari</span>
+      <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-all duration-300 rounded-xl p-6 relative overflow-hidden group">
+        <div class="absolute -top-4 -right-4 text-8xl font-bold text-rb-dark-surface opacity-50 group-hover:text-rb-emerald/10 transition-colors">02</div>
+        <div class="relative z-10">
+          <div class="inline-block bg-rb-dark-surface text-rb-emerald text-[11px] px-3 py-1 rounded mb-4 font-semibold tracking-wider">4 - 6 Hari</div>
+          <h3 class="text-[20px] lg:text-[24px] font-semibold text-white mb-3">Desain UI/UX & Coding</h3>
+          <p class="text-rb-text-dark text-base mb-4">Pembuatan mockup interaktif dan pengembangan frontend modern.</p>
+          <ul class="text-rb-text-dark text-sm space-y-2">
+            <li class="flex items-center gap-2"><span class="text-rb-emerald">✓</span> Wireframing & Prototyping</li>
+          </ul>
         </div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Desain UI/UX & Coding Modern</h3>
-        <p class="text-sm text-rb-text-light mb-4">Pembuatan mockup interaktif dilanjutkan pengembangan frontend dengan kode yang bersih.</p>
-        <div class="w-6 h-6 rounded-full bg-rb-emerald/10 flex items-center justify-center text-rb-emerald absolute bottom-6 right-6">✓</div>
       </div>
-      <div class="bg-white border border-rb-light-border rounded-2xl p-6 shadow-sm relative">
-        <div class="flex justify-between items-start mb-4">
-          <span class="text-4xl font-bold text-rb-emerald opacity-20">03</span>
-          <span class="px-2.5 py-1 bg-rb-light-surface text-xs font-semibold rounded-md border border-rb-light-border">1 - 2 Hari</span>
+      <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-all duration-300 rounded-xl p-6 relative overflow-hidden group">
+        <div class="absolute -top-4 -right-4 text-8xl font-bold text-rb-dark-surface opacity-50 group-hover:text-rb-emerald/10 transition-colors">03</div>
+        <div class="relative z-10">
+          <div class="inline-block bg-rb-dark-surface text-rb-emerald text-[11px] px-3 py-1 rounded mb-4 font-semibold tracking-wider">1 - 2 Hari</div>
+          <h3 class="text-[20px] lg:text-[24px] font-semibold text-white mb-3">Review & Staging</h3>
+          <p class="text-rb-text-dark text-base mb-4">Uji coba fungsionalitas di server sementara dan revisi akhir.</p>
+          <ul class="text-rb-text-dark text-sm space-y-2">
+            <li class="flex items-center gap-2"><span class="text-rb-emerald">✓</span> Quality Assurance (QA)</li>
+          </ul>
         </div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Review & Staging Bersahabat</h3>
-        <p class="text-sm text-rb-text-light mb-4">Anda dapat mencoba website pada server sementara dan memberikan masukan (revisi).</p>
-        <div class="w-6 h-6 rounded-full bg-rb-emerald/10 flex items-center justify-center text-rb-emerald absolute bottom-6 right-6">✓</div>
       </div>
-      <div class="bg-white border border-rb-light-border rounded-2xl p-6 shadow-sm relative">
-        <div class="flex justify-between items-start mb-4">
-          <span class="text-4xl font-bold text-rb-emerald opacity-20">04</span>
-          <span class="px-2.5 py-1 bg-rb-light-surface text-xs font-semibold rounded-md border border-rb-light-border">1 Hari</span>
+      <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-all duration-300 rounded-xl p-6 relative overflow-hidden group">
+        <div class="absolute -top-4 -right-4 text-8xl font-bold text-rb-dark-surface opacity-50 group-hover:text-rb-emerald/10 transition-colors">04</div>
+        <div class="relative z-10">
+          <div class="inline-block bg-rb-dark-surface text-rb-emerald text-[11px] px-3 py-1 rounded mb-4 font-semibold tracking-wider">1 Hari</div>
+          <h3 class="text-[20px] lg:text-[24px] font-semibold text-white mb-3">Deployment Cepat</h3>
+          <p class="text-rb-text-dark text-base mb-4">Peluncuran website ke domain utama dengan konfigurasi SSL.</p>
+          <ul class="text-rb-text-dark text-sm space-y-2">
+            <li class="flex items-center gap-2"><span class="text-rb-emerald">✓</span> Live Production Server</li>
+          </ul>
         </div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Deployment Cepat Edge Cloud</h3>
-        <p class="text-sm text-rb-text-light mb-4">Peluncuran website ke server global dengan konfigurasi domain, SSL, dan optimasi SEO.</p>
-        <div class="w-6 h-6 rounded-full bg-rb-emerald/10 flex items-center justify-center text-rb-emerald absolute bottom-6 right-6">✓</div>
       </div>
     </div>
   </section>
-</template>
+</template>\n

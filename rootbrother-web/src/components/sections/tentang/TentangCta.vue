@@ -1,14 +1,16 @@
-<script setup></script>
 <template>
-  <section class="max-w-4xl mx-auto px-6 pb-24 text-center">
-    <h2 class="text-3xl font-bold text-rb-heading-light mb-8">Mari Bertumbuh Bersama Kami</h2>
-    <div class="flex flex-col sm:flex-row justify-center gap-4">
-      <button class="px-8 py-3.5 rounded-full bg-rb-emerald text-white font-semibold hover:bg-rb-emerald-hover transition-colors">
-        Hubungi Tim Kami
-      </button>
-      <button class="px-8 py-3.5 rounded-full border border-rb-light-border text-rb-heading-light font-semibold hover:bg-rb-light-surface transition-colors">
-        Lihat Portofolio
-      </button>
+  <section class="max-w-7xl mx-auto px-6 py-20">
+    <div class="relative bg-rb-dark-card border border-rb-dark-border rounded-[16px] p-12 text-center overflow-hidden">
+      <!-- Ambient Glow -->
+      <div class="absolute inset-0 bg-rb-emerald opacity-[0.05] blur-[100px] pointer-events-none"></div>
+      
+      <div class="relative z-10">
+        <h2 class="text-[32px] md:text-[36px] font-bold text-white mb-6">Mari Bertumbuh Bersama Kami</h2>
+        <div class="flex flex-wrap justify-center gap-4 mt-8">
+          <button class="bg-rb-emerald hover:bg-rb-emerald-hover text-rb-text-btn font-semibold text-[16px] px-8 py-4 rounded-full transition-all">Mulai Konsultasi</button>
+          <button class="bg-transparent border border-rb-emerald text-rb-emerald hover:bg-rb-emerald/10 font-semibold text-[16px] px-8 py-4 rounded-full transition-all">Lihat Portofolio</button>
+        </div>
+      </div>
     </div>
   </section>
-</template>
+</template>\n

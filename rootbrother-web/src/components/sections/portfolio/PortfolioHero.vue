@@ -17,7 +17,7 @@ const filters = [
       </div>
       <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
         Karya Teruji.<br/>
-        <span class="text-rb-emerald">Solusi Nyata.</span>
+        <span class="text-transparent bg-clip-text bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Solusi Nyata.</span>
       </h1>
       <p class="text-rb-text-dark text-lg mb-10">
         Menampilkan berbagai sistem dan platform yang telah kami bangun untuk mengatasi tantangan bisnis klien di berbagai industri.

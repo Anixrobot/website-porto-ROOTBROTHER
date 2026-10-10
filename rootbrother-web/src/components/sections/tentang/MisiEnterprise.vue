@@ -1,29 +1,26 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-12">
-    <div class="bg-linear-to-r from-emerald-900 to-rb-dark rounded-3xl p-10 md:p-16 text-white grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">Membawa Standar Arsitektur Enterprise ke Genggaman Bisnis Lokal</h2>
-        <p class="text-gray-300 text-lg mb-8">
-          Misi utama kami adalah memberdayakan UMKM, startup, dan korporat lokal dengan teknologi kelas dunia (seperti Next.js, Vue, Edge Computing) dengan biaya yang tetap masuk akal.
-        </p>
-        <button class="px-6 py-3 rounded-full bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold transition-colors">
-          Pelajari Stack Teknologi Kami
-        </button>
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <div class="flex flex-col lg:flex-row gap-12 items-center">
+      <div class="lg:w-1/2">
+        <h2 class="text-[32px] md:text-[36px] font-bold text-white mb-6 leading-tight">Membawa Standar Enterprise ke Bisnis Lokal</h2>
+        <p class="text-rb-text-dark text-[16px] md:text-[18px] leading-relaxed">Kami mendemokratisasi teknologi tingkat enterprise agar dapat diakses oleh bisnis dari berbagai skala. Setiap arsitektur dibangun dengan standar industri tertinggi.</p>
       </div>
-      <div class="grid grid-cols-2 gap-4">
-        <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-5 rounded-2xl">
-          <div class="text-2xl mb-2">⚡</div>
-          <div class="font-bold">Edge Network</div>
-          <div class="text-xs text-gray-400 mt-1">Distribusi server global</div>
+      <div class="lg:w-1/2 space-y-4 w-full">
+        <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-colors p-6 rounded-[12px] flex items-start gap-4">
+          <div class="text-rb-emerald text-2xl mt-1">🚀</div>
+          <div>
+            <h4 class="text-white font-semibold text-[20px]">Dampak Nyata</h4>
+            <p class="text-rb-text-dark text-[16px] mt-1">Kami berfokus pada fitur yang memberikan ROI dan memecahkan masalah inti.</p>
+          </div>
         </div>
-        <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-5 rounded-2xl mt-8">
-          <div class="text-2xl mb-2">🛡️</div>
-          <div class="font-bold">Zero-Trust Security</div>
-          <div class="text-xs text-gray-400 mt-1">Proteksi data maksimal</div>
+        <div class="bg-rb-dark-card border border-rb-dark-border hover:bg-rb-dark-card-hover transition-colors p-6 rounded-[12px] flex items-start gap-4">
+          <div class="text-rb-emerald text-2xl mt-1">⚡</div>
+          <div>
+            <h4 class="text-white font-semibold text-[20px]">Waktu Respons Cepat</h4>
+            <p class="text-rb-text-dark text-[16px] mt-1">Infrastruktur optimal memastikan kecepatan load yang krusial untuk retensi pengguna.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-</template>
-
+</template>\n

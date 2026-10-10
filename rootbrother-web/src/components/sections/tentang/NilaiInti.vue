@@ -1,28 +1,26 @@
-<script setup></script>
 <template>
-  <section class="max-w-7xl mx-auto px-6 py-20">
-    <h2 class="text-3xl font-bold text-rb-heading-light text-center mb-12">4 Nilai Inti yang Menjiwai Setiap Solusi</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="border border-rb-light-border rounded-2xl p-6 hover:border-rb-emerald transition-colors bg-white">
-        <div class="w-10 h-10 rounded-full bg-rb-light-soft flex items-center justify-center text-rb-emerald font-bold mb-4">1</div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Ketangguhan Sistem</h3>
-        <p class="text-sm text-rb-text-light">Sistem yang kami bangun dirancang untuk tidak mudah down dan kebal terhadap error pemakaian.</p>
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="p-6 border border-rb-dark-border rounded-[12px] text-center bg-rb-dark-card hover:bg-rb-dark-card-hover transition-all duration-300">
+        <div class="w-12 h-12 mx-auto border border-rb-emerald/30 rounded flex items-center justify-center text-rb-emerald mb-4 bg-rb-dark-surface">🛡️</div>
+        <h4 class="text-white font-semibold text-[20px] mb-2">Ketangguhan</h4>
+        <p class="text-rb-text-dark text-[16px]">Sistem handal yang tahan uji.</p>
       </div>
-      <div class="border border-rb-light-border rounded-2xl p-6 hover:border-rb-emerald transition-colors bg-white">
-        <div class="w-10 h-10 rounded-full bg-rb-light-soft flex items-center justify-center text-rb-emerald font-bold mb-4">2</div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Pertumbuhan Berkelanjutan</h3>
-        <p class="text-sm text-rb-text-light">Kami memastikan kode bisa ditambahkan fitur baru di kemudian hari tanpa harus rombak total.</p>
+      <div class="p-6 border border-rb-dark-border rounded-[12px] text-center bg-rb-dark-card hover:bg-rb-dark-card-hover transition-all duration-300">
+        <div class="w-12 h-12 mx-auto border border-rb-emerald/30 rounded flex items-center justify-center text-rb-emerald mb-4 bg-rb-dark-surface">📈</div>
+        <h4 class="text-white font-semibold text-[20px] mb-2">Pertumbuhan</h4>
+        <p class="text-rb-text-dark text-[16px]">Skalabilitas seiring kemajuan.</p>
       </div>
-      <div class="border border-rb-light-border rounded-2xl p-6 hover:border-rb-emerald transition-colors bg-white">
-        <div class="w-10 h-10 rounded-full bg-rb-light-soft flex items-center justify-center text-rb-emerald font-bold mb-4">3</div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Kemitraan Saudara</h3>
-        <p class="text-sm text-rb-text-light">Hubungan yang didasari rasa saling percaya, empati, dan tidak saling merugikan.</p>
+      <div class="p-6 border border-rb-dark-border rounded-[12px] text-center bg-rb-dark-card hover:bg-rb-dark-card-hover transition-all duration-300">
+        <div class="w-12 h-12 mx-auto border border-rb-emerald/30 rounded flex items-center justify-center text-rb-emerald mb-4 bg-rb-dark-surface">🤝</div>
+        <h4 class="text-white font-semibold text-[20px] mb-2">Kemitraan</h4>
+        <p class="text-rb-text-dark text-[16px]">Kolaborasi erat dan transparan.</p>
       </div>
-      <div class="border border-rb-light-border rounded-2xl p-6 hover:border-rb-emerald transition-colors bg-white">
-        <div class="w-10 h-10 rounded-full bg-rb-light-soft flex items-center justify-center text-rb-emerald font-bold mb-4">4</div>
-        <h3 class="font-bold text-rb-heading-light mb-2">Presisi & Estetika</h3>
-        <p class="text-sm text-rb-text-light">Selain kencang di belakang layar, UI/UX di depan layar harus memanjakan mata pengguna.</p>
+      <div class="p-6 border border-rb-dark-border rounded-[12px] text-center bg-rb-dark-card hover:bg-rb-dark-card-hover transition-all duration-300">
+        <div class="w-12 h-12 mx-auto border border-rb-emerald/30 rounded flex items-center justify-center text-rb-emerald mb-4 bg-rb-dark-surface">🎯</div>
+        <h4 class="text-white font-semibold text-[20px] mb-2">Presisi</h4>
+        <p class="text-rb-text-dark text-[16px]">Eksekusi akurat tanpa kompromi.</p>
       </div>
     </div>
   </section>
-</template>
+</template>\n
