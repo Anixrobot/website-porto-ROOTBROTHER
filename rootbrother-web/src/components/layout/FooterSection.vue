@@ -49,29 +49,29 @@ import logoImg from '@/assets/logo-rootbrother.png'
           
           <div class="flex flex-col gap-2.5">
             <!-- WA Card -->
-            <a href="https://wa.me/6281234567890" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
+            <a href="https://wa.me/6281929923805" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
               <div class="w-8 h-8 bg-rb-emerald/10 rounded-lg flex items-center justify-center text-rb-emerald">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
               </div>
               <div class="flex flex-col">
                 <span class="text-rb-text-dark text-[11px]">WhatsApp Konsultasi</span>
-                <span class="text-white text-sm font-medium">+62 812-3456-7890</span>
+                <span class="text-white text-sm font-medium">+62 819-2992-3805</span>
               </div>
             </a>
             
             <!-- Discord Card -->
-            <a href="#" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
+            <a href="https://discord.gg/XXxbzBsYk" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
               <div class="w-8 h-8 bg-rb-emerald/10 rounded-lg flex items-center justify-center text-rb-emerald">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 9a5 5 0 0 0-5-5H9a5 5 0 0 0-5 5v5a5 5 0 0 0 5 5h1l1 3 2.5-3h1.5a5 5 0 0 0 5-5v-5z"/></svg>
               </div>
               <div class="flex flex-col">
                 <span class="text-rb-text-dark text-[11px]">Komunitas & Dev Hub</span>
-                <span class="text-white text-sm font-medium">discord.gg/rootbrother</span>
+                <span class="text-white text-sm font-medium">discord.gg/XXxbzBsYk</span>
               </div>
             </a>
 
             <!-- Instagram Card -->
-            <a href="#" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
+            <a href="https://www.instagram.com/rootbrother.digital/" target="_blank" class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-xl px-4 py-3 flex items-center gap-3 hover:border-rb-emerald/50 transition-colors">
               <div class="w-8 h-8 bg-rb-emerald/10 rounded-lg flex items-center justify-center text-rb-emerald">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </div>
