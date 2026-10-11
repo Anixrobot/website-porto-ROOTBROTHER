@@ -45,3 +45,27 @@ body {
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--color-rb-emerald); border-radius: 999px; }
+
+/* ---------- Figma Ambient Overlay Glow ---------- */
+.overlay-blur {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  border-radius: 9999px;
+  background-color: var(--color-rb-emerald);
+  opacity: 0.25;
+  filter: blur(120px);
+  z-index: 0;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* ---------- Figma Heading 1 Linear Gradient ---------- */
+.text-gradient-hero {
+  background: linear-gradient(90deg, #34D399 0%, #5EEAD4 50%, #22D3EE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+

@@ -8,7 +8,7 @@
 
     <!-- Headline -->
     <h1 class="text-[#FFFFFF] text-[48px] font-bold tracking-[-1.2px] leading-tight mb-6">
-      Alur Kerja Simpel, <span class="text-[#4EDEA3]">Hasil Maksimal</span>
+      Alur Kerja Simpel, <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Hasil Maksimal</span>
     </h1>
 
     <!-- Subtitle -->

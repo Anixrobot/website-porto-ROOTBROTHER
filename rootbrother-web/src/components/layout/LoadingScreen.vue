@@ -1,6 +1,7 @@
 <script setup>
 import { defineProps } from 'vue'
 import logoImg from '@/assets/logo-rootbrother.png'
+import OverlayBlur from '@/components/ui/OverlayBlur.vue'
 
 const props = defineProps({
   progress: {
@@ -12,7 +13,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="min-h-screen bg-rb-dark relative overflow-hidden flex flex-col justify-between">
+  <div class="min-h-screen bg-rb-dark relative overflow-hidden isolate flex flex-col justify-between">
+    <!-- Ambient Overlays (Figma Overlay+Blur) -->
+    <OverlayBlur class="-top-24 -left-20 w-[600px] md:w-[750px] h-[380px]" opacity="opacity-25" blur="blur-[120px]" />
+    <OverlayBlur class="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[480px] md:w-[600px] h-[480px] md:h-[600px]" opacity="opacity-30" blur="blur-[100px]" />
+    <OverlayBlur class="top-10 -right-24 w-[480px] h-[340px]" opacity="opacity-20" blur="blur-[120px]" />
+
     <!-- Top bar -->
     <div class="w-full px-6 py-3 flex justify-between items-center z-10">
       <div class="flex items-center gap-2">
@@ -26,10 +32,7 @@ const props = defineProps({
 
     <!-- Center area -->
     <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
-      <!-- Glow effect -->
-      <div class="w-80 h-80 bg-rb-emerald/5 rounded-full blur-3xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 pointer-events-none"></div>
-      
-      <img :src="logoImg" alt="Rootbrother Logo" class="w-32 h-32 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.15)] object-cover" />
+      <img :src="logoImg" alt="Rootbrother Logo" class="w-32 h-32 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.25)] object-cover" />
       
       <div class="mt-6 bg-rb-emerald/10 text-rb-emerald text-xs font-semibold px-4 py-1 rounded-full border border-rb-emerald/20">
         ● SOLID DIGITAL PRESISI
@@ -39,7 +42,7 @@ const props = defineProps({
         WELCOME TO
       </h2>
       
-      <h1 class="text-rb-emerald text-4xl md:text-5xl font-black tracking-tight uppercase">
+      <h1 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-4xl md:text-5xl font-black tracking-tight uppercase">
         ROOTBROTHER
       </h1>
       

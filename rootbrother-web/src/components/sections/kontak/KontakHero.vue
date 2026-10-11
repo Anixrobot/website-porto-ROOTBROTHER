@@ -21,7 +21,7 @@
       
       <h1 class="text-[#FFFFFF] text-[40px] md:text-[48px] font-bold leading-tight mb-6 tracking-[-1px]">
         Mari Bertumbuh Bersama. <br />
-        Mulai Obrolan <span class="text-[#94A3B8]">Proyekmu!</span>
+        Mulai Obrolan <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Proyekmu!</span>
       </h1>
       
       <p class="text-[#94A3B8] text-[18px] font-normal leading-relaxed">

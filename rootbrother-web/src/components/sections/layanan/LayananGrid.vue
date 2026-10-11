@@ -32,7 +32,7 @@ const filteredServices = computed(() => {
           </span>
         </div>
 
-        <h3 class="text-white font-bold text-base mt-4">
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-base mt-4">
           {{ service.title }}
         </h3>
         <p class="text-rb-text-dark text-sm leading-relaxed mt-2">

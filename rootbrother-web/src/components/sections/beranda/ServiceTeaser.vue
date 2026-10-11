@@ -5,7 +5,7 @@
     </div>
     
     <h2 class="text-white text-3xl md:text-4xl font-bold mt-3 max-w-xl">
-      Layanan Terintegrasi Untuk Skala Bisnis Anda
+      Layanan Terintegrasi <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Untuk Skala Bisnis Anda</span>
     </h2>
     
     <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mt-3">
@@ -23,7 +23,7 @@
         <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
           &lt;/&gt;
         </div>
-        <h3 class="text-white font-bold text-lg mt-5">Website &amp; Web App</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">Website &amp; Web App</h3>
         <p class="text-rb-text-dark text-sm leading-relaxed mt-2 grow">
           Pengembangan aplikasi web mutakhir berbasis Next.js dan Tailwind CSS dengan arsitektur bersih, cepat, dan ramah SEO.
         </p>
@@ -38,7 +38,7 @@
         <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
           &starf;
         </div>
-        <h3 class="text-white font-bold text-lg mt-5">UI/UX &amp; Brand System</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">UI/UX &amp; Brand System</h3>
         <p class="text-rb-text-dark text-sm leading-relaxed mt-2 grow">
           Perancangan sistem visual modern dan antarmuka pengguna yang terstruktur untuk memastikan interaksi produk berjalan mulus.
         </p>
@@ -53,7 +53,7 @@
         <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
           &#9729;
         </div>
-        <h3 class="text-white font-bold text-lg mt-5">Cloud &amp; Integrasi API</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">Cloud &amp; Integrasi API</h3>
         <p class="text-rb-text-dark text-sm leading-relaxed mt-2 grow">
           Infrastruktur cloud handal, orkestrasi microservices, integrasi payment gateway, dan automasi proses bisnis yang aman.
         </p>

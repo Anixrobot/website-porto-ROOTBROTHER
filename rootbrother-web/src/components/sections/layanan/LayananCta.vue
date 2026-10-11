@@ -4,7 +4,7 @@
       <div class="text-rb-emerald text-xs tracking-widest uppercase font-semibold">
         🔐 DISKUSI TANPA KOMITMEN
       </div>
-      <h2 class="text-white text-3xl md:text-4xl font-bold mt-4">
+      <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-3xl md:text-4xl font-bold mt-4">
         Punya Kebutuhan Spesifik?
       </h2>
       <p class="text-rb-text-dark text-sm mt-3 max-w-2xl mx-auto">

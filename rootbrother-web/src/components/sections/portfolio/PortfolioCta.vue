@@ -1,7 +1,7 @@
 <template>
   <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 pb-20">
     <div class="bg-rb-dark-card border border-rb-dark-border rounded-2xl py-12 px-6 flex flex-col items-center text-center">
-      <h2 class="text-3xl font-bold text-white mb-4">Siap Berkolaborasi?</h2>
+      <h2 class="text-3xl font-bold text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] mb-4">Siap Berkolaborasi?</h2>
       <p class="text-rb-text-dark mb-8 max-w-lg">Proyek Anda bisa jadi kesuksesan kami selanjutnya. Mari bangun hal hebat bersama.</p>
       <div class="flex flex-col sm:flex-row gap-4">
         <button class="px-8 py-3 rounded-full bg-rb-emerald text-white font-semibold hover:bg-rb-emerald-hover transition-colors">

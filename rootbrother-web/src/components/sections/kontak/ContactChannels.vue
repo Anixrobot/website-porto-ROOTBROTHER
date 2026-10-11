@@ -9,7 +9,7 @@
           <div class="bg-[#1D2A41] text-[#4EDEA3] text-[10px] font-semibold px-2 py-1 rounded">Prioritas Respon</div>
         </div>
 
-        <h2 class="text-[#FFFFFF] text-[28px] font-bold leading-tight mb-4">Terhubung Tanpa Hambatan</h2>
+        <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[28px] font-bold leading-tight mb-4">Terhubung Tanpa Hambatan</h2>
         <p class="text-[#94A3B8] text-[16px] leading-relaxed mb-8">
           Pilih media komunikasi yang paling fleksibel untuk Anda. Tim insinyur kami standby melayani kebutuhan audit maupun konsultasi awal.
         </p>
@@ -83,7 +83,7 @@
         <div class="flex justify-between items-start mb-6">
           <div>
             <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-2">LAB &amp; HEADQUARTER</p>
-            <h2 class="text-[#FFFFFF] text-[24px] font-bold leading-tight">Jakarta Tech Hub, Indonesia</h2>
+            <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-bold leading-tight">Jakarta Tech Hub, Indonesia</h2>
           </div>
           <div class="w-10 h-10 rounded-full bg-[#1D2A41] flex items-center justify-center shrink-0">
             <svg class="w-5 h-5 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>

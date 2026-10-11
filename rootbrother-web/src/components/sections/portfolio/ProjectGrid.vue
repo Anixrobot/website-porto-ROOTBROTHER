@@ -53,7 +53,7 @@ const filteredProjects = computed(() => {
         <div class="p-6 flex flex-col grow relative z-20 -mt-2">
           
           <div class="flex justify-between items-start mb-3">
-            <h3 class="text-xl font-bold text-white leading-snug pr-4">
+            <h3 class="text-xl font-bold text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] leading-snug pr-4">
               {{ project.title.split(' - ')[0] }}
             </h3>
             <span class="text-[#94A3B8] text-[10px] font-mono shrink-0 pt-1">

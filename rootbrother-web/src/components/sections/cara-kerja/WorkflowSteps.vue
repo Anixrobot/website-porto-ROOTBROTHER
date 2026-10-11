@@ -4,7 +4,7 @@
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
       <div>
         <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-4">Step By Step Guide</p>
-        <h2 class="text-[#FFFFFF] text-[36px] font-bold leading-tight">4 Langkah Mudah Menuju Website Idaman</h2>
+        <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[36px] font-bold leading-tight">4 Langkah Mudah Menuju Website Idaman</h2>
       </div>
       <div class="md:max-w-md">
         <p class="text-[#4EDEA3] text-[16px] font-normal leading-relaxed">
@@ -26,7 +26,7 @@
         <div class="inline-block bg-white text-[#030B18] text-[12px] font-bold px-3 py-1 rounded mb-6 w-max">
           1 - 2 Hari
         </div>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-4 leading-tight">Diskusi Konsep &amp; Rencana</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-4 leading-tight">Diskusi Konsep &amp; Rencana</h3>
         <p class="text-[#94A3B8] text-[16px] mb-8 grow">
           Cukup ceritakan jenis bisnis dan referensi yang Anda sukai. Kami susun susunan halaman, teks, dan strategi tampilan terbaik.
         </p>
@@ -47,7 +47,7 @@
         <div class="inline-block bg-white text-[#030B18] text-[12px] font-bold px-3 py-1 rounded mb-6 w-max">
           3 - 5 Hari
         </div>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-4 leading-tight">Desain UI/UX &amp; Coding Modern</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-4 leading-tight">Desain UI/UX &amp; Coding Modern</h3>
         <p class="text-[#94A3B8] text-[16px] mb-8 grow">
           Kami rancang visual yang bersih nan elegan, lalu memprogramnya dengan kode mutakhir agar ringan dibuka di perangkat apapun.
         </p>
@@ -68,7 +68,7 @@
         <div class="inline-block bg-white text-[#030B18] text-[12px] font-bold px-3 py-1 rounded mb-6 w-max">
           1 - 3 Hari
         </div>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-4 leading-tight">Review &amp; Staging Bersahabat</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-4 leading-tight">Review &amp; Staging Bersahabat</h3>
         <p class="text-[#94A3B8] text-[16px] mb-8 grow">
           Anda menerima tautan pratinjau rahasia untuk mencoba website langsung di ponsel Anda. Kami sesuaikan detail hingga Anda puas.
         </p>
@@ -89,7 +89,7 @@
         <div class="inline-block bg-white text-[#030B18] text-[12px] font-bold px-3 py-1 rounded mb-6 w-max">
           1 Hari
         </div>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-4 leading-tight">Deployment Cepat Edge Cloud</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-4 leading-tight">Deployment Cepat Edge Cloud</h3>
         <p class="text-[#94A3B8] text-[16px] mb-8 grow">
           Kami hubungkan domain utama Anda ke jaringan Vercel / Netlify berkecepatan tinggi global. Website resmi online dan siap melayani klien!
         </p>

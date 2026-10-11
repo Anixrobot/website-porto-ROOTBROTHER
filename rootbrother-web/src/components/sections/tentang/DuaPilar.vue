@@ -4,7 +4,7 @@
     <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
       <div>
         <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-4">DUA PILAR EKSISTENSI</p>
-        <h2 class="text-[#FFFFFF] text-[36px] font-bold leading-tight">Keseimbangan Antara Presisi &amp; Manusia</h2>
+        <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[36px] font-bold leading-tight">Keseimbangan Antara Presisi &amp; Manusia</h2>
       </div>
       <div class="lg:max-w-md">
         <p class="text-[#4EDEA3] text-[16px] font-normal leading-relaxed">
@@ -26,7 +26,7 @@
         </div>
         
         <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-4">PILAR PERTAMA</p>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-6">ROOT — Pondasi Tak Goyah</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-6">ROOT — Pondasi Tak Goyah</h3>
         <p class="text-[#94A3B8] text-[16px] leading-relaxed mb-8 grow">
           Kami membangun arsitektur perangkat lunak dari lapisan terdalam. Bukan sekadar mengejar tampilan visual permukaan, namun mengutamakan kemudahan pemeliharaan, audit keamanan, dan performa respon di bawah 100ms.
         </p>
@@ -62,7 +62,7 @@
         </div>
         
         <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-4">PILAR KEDUA</p>
-        <h3 class="text-[#FFFFFF] text-[24px] font-semibold mb-6">BROTHER — Kemitraan Saudara</h3>
+        <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[24px] font-semibold mb-6">BROTHER — Kemitraan Saudara</h3>
         <p class="text-[#94A3B8] text-[16px] leading-relaxed mb-8 grow">
           Persaudaraan berarti kepedulian yang jujur. Kami secara tegas menolak praktik vendor lock-in yang menyandera klien. Seluruh aset, repositori Git, dan akses cloud adalah mutlak milik Anda sejak hari pertama.
         </p>

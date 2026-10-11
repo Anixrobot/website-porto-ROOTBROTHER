@@ -9,7 +9,7 @@
           <span class="text-[#94A3B8] text-[12px] font-semibold tracking-[0.05em] uppercase">Misi Strategis Rootbrother</span>
         </div>
 
-        <h2 class="text-[#FFFFFF] text-[36px] font-bold leading-tight mb-8">
+        <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[36px] font-bold leading-tight mb-8">
           Membawa Standar Arsitektur Enterprise ke Genggaman Bisnis Lokal.
         </h2>
 
@@ -27,7 +27,7 @@
               <svg class="w-7 h-7 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
             <div>
-              <h3 class="text-[#FFFFFF] text-[20px] font-semibold mb-3">Dampak Nyata</h3>
+              <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[20px] font-semibold mb-3">Dampak Nyata</h3>
               <p class="text-[#94A3B8] text-[16px] leading-relaxed">
                 Mengurangi pengeluaran server cloud hingga 40% dengan optimasi performa backend yang hemat memori.
               </p>
@@ -42,7 +42,7 @@
               <svg class="w-7 h-7 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
             <div>
-              <h3 class="text-[#FFFFFF] text-[20px] font-semibold mb-3">Waktu Respons Cepat</h3>
+              <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[20px] font-semibold mb-3">Waktu Respons Cepat</h3>
               <p class="text-[#94A3B8] text-[16px] leading-relaxed">
                 Standar web app PageSpeed 95+ untuk menunjang konversi penjualan dan kenyamanan pelanggan Anda.
               </p>

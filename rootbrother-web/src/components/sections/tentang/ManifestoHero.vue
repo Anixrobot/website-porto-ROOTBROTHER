@@ -9,7 +9,7 @@
     <!-- Headline -->
     <h1 class="text-[#FFFFFF] text-[48px] font-bold tracking-[-1.2px] leading-tight mb-6">
       Berakar Dalam Kode, <br />
-      <span class="text-[#4EDEA3]">Bertumbuh Bersama Saudara</span>
+      <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Bertumbuh Bersama Saudara</span>
     </h1>
 
     <!-- Subtitle -->

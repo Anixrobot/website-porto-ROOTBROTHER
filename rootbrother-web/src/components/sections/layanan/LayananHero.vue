@@ -24,7 +24,7 @@ const filters = [
     </div>
 
     <h1 class="mt-6 text-white text-4xl md:text-5xl font-bold">
-      Layanan <span class="text-transparent bg-clip-text bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Rekayasa Digital</span>
+      Layanan <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Rekayasa Digital</span>
     </h1>
 
     <p class="mt-4 text-rb-text-dark text-base leading-relaxed max-w-2xl mx-auto">

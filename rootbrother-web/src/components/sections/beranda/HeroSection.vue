@@ -14,7 +14,7 @@ import logoImg from '@/assets/logo-rootbrother.png'
 
         <h1 class="mt-6 text-white text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-tight italic">
           Solusi Digital<br />
-          <span class="text-transparent bg-clip-text bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Untuk Anak Bangsa.</span>
+          <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Untuk Anak Bangsa.</span>
         </h1>
 
         <p class="mt-5 text-rb-text-dark text-base leading-relaxed max-w-lg">

@@ -25,7 +25,7 @@ import imgDokum from '@/assets/tentangkami/dokum2.jpg'
           <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase">FILOSOFI ROOTBROTHER</p>
         </div>
 
-        <h2 class="text-[#FFFFFF] text-[36px] font-bold leading-tight mb-8">
+        <h2 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[36px] font-bold leading-tight mb-8">
           Berakar pada Kolaborasi, Tumbuh Besar Bersama.
         </h2>
 

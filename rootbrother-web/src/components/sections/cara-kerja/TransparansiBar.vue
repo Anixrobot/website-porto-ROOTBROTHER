@@ -6,7 +6,7 @@
           <svg class="w-6 h-6 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
         </div>
         <div>
-          <h3 class="text-[#FFFFFF] text-[20px] font-semibold mb-1">Transparansi Tanpa Istilah Teknis yang Membingungkan</h3>
+          <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-[20px] font-semibold mb-1">Transparansi Tanpa Istilah Teknis yang Membingungkan</h3>
           <p class="text-[#94A3B8] text-[16px] max-w-xl">
             Anda tidak perlu paham bahasa coding atau konfigurasi server; seluruh urusan infrastruktur kami tangani penuh.
           </p>
