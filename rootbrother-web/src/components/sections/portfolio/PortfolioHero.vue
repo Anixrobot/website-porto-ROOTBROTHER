@@ -18,18 +18,12 @@ const filters = [
       <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
         Karya Teruji. <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Solusi Nyata.</span>
       </h1>
-      <p class="text-rb-text-dark text-lg mb-10">
+      <p class="text-rb-text-dark text-lg mb-8">
         Menampilkan berbagai sistem dan platform yang telah kami bangun untuk mengatasi tantangan bisnis klien di berbagai industri.
       </p>
-      
-      <div class="flex justify-center gap-8 md:gap-12 mb-12">
-        <div><div class="text-xl font-bold text-white">99.98%</div><div class="text-xs text-rb-text-dark">SLA Tercapai</div></div>
-        <div><div class="text-xl font-bold text-white">38+</div><div class="text-xs text-rb-text-dark">Modul Enterprise</div></div>
-        <div><div class="text-xl font-bold text-white">100%</div><div class="text-xs text-rb-text-dark">Tingkat Kepuasan</div></div>
-      </div>
     </div>
     
-    <div class="flex flex-wrap justify-center gap-3 pt-8 border-t border-[rgba(78,222,163,0.1)] w-full max-w-3xl mx-auto">
+    <div class="flex flex-wrap justify-center gap-3 pt-6 border-t border-[rgba(78,222,163,0.1)] w-full max-w-3xl mx-auto">
       <button 
         v-for="filter in filters" :key="filter.id"
         @click="emit('update:filter', filter.id)"

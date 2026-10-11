@@ -32,7 +32,7 @@ const props = defineProps({
 
     <!-- Center area -->
     <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
-      <img :src="logoImg" alt="Rootbrother Logo" class="w-32 h-32 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.25)] object-cover" />
+      <img :src="logoImg" alt="Rootbrother Logo" class="w-36 h-36 md:w-40 md:h-40 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.3)] object-contain p-1" />
       
       <div class="mt-6 bg-rb-emerald/10 text-rb-emerald text-xs font-semibold px-4 py-1 rounded-full border border-rb-emerald/20">
         ● SOLID DIGITAL PRESISI

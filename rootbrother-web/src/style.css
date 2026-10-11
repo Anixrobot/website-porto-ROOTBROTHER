@@ -58,6 +58,22 @@ body {
   z-index: 0;
   transform: translateZ(0);
   will-change: transform;
+  animation: overlay-breathe 10s ease-in-out infinite alternate;
+}
+
+@keyframes overlay-breathe {
+  0% {
+    transform: scale(0.97) translateZ(0);
+    opacity: 0.22;
+  }
+  50% {
+    transform: scale(1.05) translateZ(0);
+    opacity: 0.32;
+  }
+  100% {
+    transform: scale(0.98) translateZ(0);
+    opacity: 0.24;
+  }
 }
 
 /* ---------- Figma Heading 1 Linear Gradient ---------- */
@@ -66,6 +82,98 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* ---------- Global Smooth Interactive Transitions ---------- */
+button,
+a,
+input,
+textarea,
+select,
+[role="button"] {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ---------- Universal Neon Glow Hover Effects ---------- */
+
+/* 1. All Cards & Content Containers */
+.bg-rb-dark-card,
+.bg-\[\#0E1B32\],
+.bg-\[\#132137\],
+.bg-\[\#1D2A41\],
+.neon-glow-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bg-rb-dark-card:hover,
+.bg-\[\#0E1B32\]:hover,
+.bg-\[\#132137\]:hover,
+.neon-glow-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(78, 222, 163, 0.65) !important;
+  box-shadow: 0 0 25px -2px rgba(78, 222, 163, 0.42),
+              0 0 50px -5px rgba(34, 211, 238, 0.28),
+              inset 0 0 15px rgba(78, 222, 163, 0.06) !important;
+}
+
+/* 2. Primary Emerald Buttons */
+button.bg-rb-emerald:hover,
+a.bg-rb-emerald:hover,
+.bg-rb-emerald:hover,
+.bg-\[\#4EDEA3\]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(78, 222, 163, 0.7),
+              0 0 50px rgba(34, 211, 238, 0.4) !important;
+}
+
+/* 3. Outlined & Secondary Buttons */
+button.border:hover,
+a.border:hover {
+  transform: translateY(-2px);
+  border-color: rgba(78, 222, 163, 0.8) !important;
+  box-shadow: 0 0 20px rgba(78, 222, 163, 0.45),
+              inset 0 0 12px rgba(78, 222, 163, 0.12) !important;
+}
+
+/* 4. Form Inputs & Textareas */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4EDEA3 !important;
+  box-shadow: 0 0 20px rgba(78, 222, 163, 0.45),
+              inset 0 0 8px rgba(78, 222, 163, 0.1) !important;
+}
+
+input:hover:not(:focus),
+textarea:hover:not(:focus) {
+  border-color: rgba(78, 222, 163, 0.5) !important;
+  box-shadow: 0 0 12px rgba(78, 222, 163, 0.25) !important;
+}
+
+/* 5. Interactive Badges, Pills & Links */
+.group:hover .text-\[\#4EDEA3\],
+.group:hover .text-rb-emerald {
+  text-shadow: 0 0 12px rgba(78, 222, 163, 0.65);
+}
+
+/* 6. Neon Glow Frame (Figma Cara Kerja Container) */
+.neon-glow-frame {
+  border: 2px solid #22D3EE;
+  border-bottom: 2px dashed rgba(34, 211, 238, 0.8);
+  box-shadow: 0 0 35px rgba(34, 211, 238, 0.35),
+              inset 0 0 35px rgba(34, 211, 238, 0.08);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neon-glow-frame:hover {
+  border-color: #4EDEA3;
+  border-bottom-color: rgba(78, 222, 163, 0.9);
+  box-shadow: 0 0 45px rgba(78, 222, 163, 0.45),
+              0 0 70px rgba(34, 211, 238, 0.25),
+              inset 0 0 40px rgba(78, 222, 163, 0.12);
 }
 
 

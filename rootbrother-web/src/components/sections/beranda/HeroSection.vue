@@ -41,8 +41,8 @@ import logoImg from '@/assets/logo-rootbrother.png'
 
       <!-- Right Side -->
       <div class="lg:w-2/5 flex justify-center relative">
-        <div class="absolute inset-0 bg-rb-emerald blur-[100px] opacity-20 rounded-full"></div>
-        <img :src="logoImg" alt="Rootbrother Logo" class="relative z-10 w-56 h-56 md:w-72 md:h-72 object-contain drop-shadow-[0_0_40px_rgba(78,222,163,0.2)]" />
+        <div class="absolute inset-0 bg-rb-emerald blur-[120px] opacity-25 rounded-full scale-110"></div>
+        <img :src="logoImg" alt="Rootbrother Logo" class="relative z-10 w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] object-contain drop-shadow-[0_0_50px_rgba(78,222,163,0.3)] hover:scale-105 transition-all duration-500" />
       </div>
     </div>
   </section>

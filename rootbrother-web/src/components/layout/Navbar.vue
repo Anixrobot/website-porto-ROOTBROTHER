@@ -21,7 +21,7 @@ watch(
       
       <!-- LEFT - Logo area -->
       <router-link to="/" class="flex items-center gap-3">
-        <img :src="logoImg" alt="Rootbrother Logo" class="w-8 h-8 rounded-full object-cover" />
+        <img :src="logoImg" alt="Rootbrother Logo" class="w-9 h-9 rounded-full object-contain" />
         <div class="flex flex-col">
           <div class="flex items-center">
             <span class="text-white text-sm font-bold tracking-wide">ROOTBROTHER</span>

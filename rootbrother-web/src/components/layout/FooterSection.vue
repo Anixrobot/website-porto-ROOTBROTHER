@@ -12,7 +12,7 @@ import logoImg from '@/assets/logo-rootbrother.png'
         <!-- Column 1 - Brand -->
         <div class="flex flex-col">
           <div class="flex items-center gap-2 mb-1">
-            <img :src="logoImg" alt="Rootbrother Logo" class="w-7 h-7 rounded-full object-cover" />
+            <img :src="logoImg" alt="Rootbrother Logo" class="w-8 h-8 rounded-full object-contain" />
             <div class="flex items-center">
               <span class="text-white font-bold text-sm">ROOTBROTHER</span>
               <span class="inline-block w-1.5 h-1.5 bg-rb-emerald rounded-full ml-1"></span>

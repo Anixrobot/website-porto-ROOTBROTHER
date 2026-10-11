@@ -31,25 +31,6 @@ const filters = [
       Solusi arsitektur web terintegrasi dan berkinerja tinggi untuk menopang pertumbuhan bisnis Anda dengan fondasi kode yang tangguh, modular, dan terukur.
     </p>
 
-    <div class="mt-10 flex flex-wrap justify-center gap-8 md:gap-16">
-      <div class="text-center">
-        <div class="text-rb-emerald text-2xl md:text-3xl font-bold">99.98%</div>
-        <div class="text-rb-text-dark text-xs mt-1 font-medium">Stabilitas Runtime</div>
-      </div>
-      <div class="text-center">
-        <div class="text-rb-emerald text-2xl md:text-3xl font-bold">&lt; 0.8s</div>
-        <div class="text-rb-text-dark text-xs mt-1 font-medium">Waktu Muat Rata-rata</div>
-      </div>
-      <div class="text-center">
-        <div class="text-rb-emerald text-2xl md:text-3xl font-bold">60+</div>
-        <div class="text-rb-text-dark text-xs mt-1 font-medium">Sistem Dirilis</div>
-      </div>
-      <div class="text-center">
-        <div class="text-rb-emerald text-2xl md:text-3xl font-bold">100%</div>
-        <div class="text-rb-text-dark text-xs mt-1 font-medium">Standardisasi Clean Code</div>
-      </div>
-    </div>
-
     <div class="mt-8 flex flex-wrap justify-center gap-2">
       <button
         v-for="filter in filters"
