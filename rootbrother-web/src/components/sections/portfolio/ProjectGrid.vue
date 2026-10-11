@@ -76,8 +76,14 @@ const filteredProjects = computed(() => {
           </div>
           
           <div class="flex items-center justify-between pt-4 border-t border-[#1E293B]">
-            <a :href="project.link" class="text-[13px] text-[#4EDEA3] font-medium hover:text-white transition-colors flex items-center gap-1">
-              Lihat Kasus & Pratinjau &rarr;
+            <a 
+              :href="project.link" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="text-[13px] text-[#4EDEA3] font-medium hover:text-white transition-colors flex items-center gap-1 group/link"
+            >
+              <span>Lihat Kasus & Pratinjau</span>
+              <span class="group-hover/link:translate-x-1 transition-transform">&rarr;</span>
             </a>
             <div class="flex items-center gap-1.5">
               <span class="w-1.5 h-1.5 rounded-full bg-[#4EDEA3] shadow-[0_0_5px_#4EDEA3]"></span>
@@ -85,6 +91,22 @@ const filteredProjects = computed(() => {
             </div>
           </div>
 
+        </div>
+      </div>
+
+      <!-- Empty State for categories without projects yet -->
+      <div v-if="filteredProjects.length === 0" class="col-span-full py-16 px-6 text-center bg-[#0E1B32] border border-[#1E293B] rounded-2xl">
+        <div class="w-14 h-14 rounded-full bg-[#1D2A41] text-rb-emerald flex items-center justify-center mx-auto mb-4 text-2xl">
+          🚀
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Proyek Kategori Ini Sedang Dalam Pengembangan</h3>
+        <p class="text-rb-text-dark text-sm max-w-md mx-auto mb-6">
+          Ingin menjadi partner pertama kami untuk kebutuhan sistem kategori ini? Konsultasikan ide Anda bersama tim insinyur kami.
+        </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <router-link to="/kontak" class="bg-rb-emerald hover:bg-rb-emerald-hover text-white text-sm font-semibold px-6 py-2.5 rounded-full transition-all">
+            Konsultasikan Kebutuhan Anda &rarr;
+          </router-link>
         </div>
       </div>
     </div>

@@ -49,12 +49,12 @@ watch(
       </div>
 
       <!-- RIGHT - CTA button -->
-      <router-link to="/kontak" class="hidden lg:inline-flex border border-rb-emerald text-rb-emerald text-sm font-semibold px-5 py-2 rounded-full hover:bg-rb-emerald hover:text-white transition-all duration-300">
+      <router-link :to="{ path: '/kontak', hash: '#brief' }" class="hidden lg:inline-flex border border-rb-emerald text-rb-emerald text-sm font-semibold px-5 py-2 rounded-full hover:bg-rb-emerald hover:text-white transition-all duration-300 active:scale-95 hover:shadow-[0_0_15px_rgba(78,222,163,0.3)]">
         Mulai Proyekmu
       </router-link>
 
       <!-- MOBILE - Hamburger toggle -->
-      <button @click="isOpen = !isOpen" class="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5">
+      <button @click="isOpen = !isOpen" class="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 cursor-pointer">
         <span class="w-5 h-0.5 bg-[#FFFFFF] block transition-all duration-300" :class="{ 'rotate-45 translate-y-2': isOpen }"></span>
         <span class="w-5 h-0.5 bg-[#FFFFFF] block transition-all duration-300" :class="{ 'opacity-0': isOpen }"></span>
         <span class="w-5 h-0.5 bg-[#FFFFFF] block transition-all duration-300" :class="{ '-rotate-45 -translate-y-2': isOpen }"></span>
@@ -76,7 +76,7 @@ watch(
         {{ link.name }}
       </router-link>
       <div class="px-6 py-4 mt-2 border-t border-[rgba(78,222,163,0.1)]">
-        <router-link to="/kontak" class="inline-flex border border-rb-emerald text-rb-emerald text-sm font-semibold px-5 py-2 rounded-full hover:bg-rb-emerald hover:text-white transition-all duration-300">
+        <router-link :to="{ path: '/kontak', hash: '#brief' }" class="inline-flex border border-rb-emerald text-rb-emerald text-sm font-semibold px-5 py-2 rounded-full hover:bg-rb-emerald hover:text-white transition-all duration-300">
           Mulai Proyekmu
         </router-link>
       </div>

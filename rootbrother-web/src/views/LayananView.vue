@@ -1,12 +1,18 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import LayananHero from '../components/sections/layanan/LayananHero.vue'
 import LayananGrid from '../components/sections/layanan/LayananGrid.vue'
 import AlurRekayasa from '../components/sections/layanan/AlurRekayasa.vue'
 import LayananCta from '../components/sections/layanan/LayananCta.vue'
 import OverlayBlur from '../components/ui/OverlayBlur.vue'
 
-const activeFilter = ref('all')
+const route = useRoute()
+const activeFilter = ref(route.query.filter || 'all')
+
+watch(() => route.query.filter, (newFilter) => {
+  if (newFilter) activeFilter.value = newFilter
+})
 </script>
 
 <template>

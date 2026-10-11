@@ -58,13 +58,13 @@
         </p>
         
         <div class="flex flex-col sm:flex-row items-center gap-4 mb-8">
-          <a href="#" class="inline-flex items-center justify-center bg-[#4EDEA3] text-[#030B18] font-semibold px-8 py-4 rounded-lg hover:bg-[#3dbd8a] transition-colors w-full sm:w-auto gap-2">
+          <router-link to="/kontak" class="inline-flex items-center justify-center bg-[#4EDEA3] text-[#030B18] font-semibold px-8 py-4 rounded-lg hover:bg-[#3dbd8a] transition-all duration-300 w-full sm:w-auto gap-2 active:scale-95 shadow-lg shadow-emerald-950">
             Mulai Konsultasi Gratis
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-          </a>
-          <a href="#" class="inline-flex items-center justify-center bg-[#132137] text-white border border-[#1E293B] font-semibold px-8 py-4 rounded-lg hover:bg-[#1D2A41] transition-colors w-full sm:w-auto">
+          </router-link>
+          <router-link to="/portfolio" class="inline-flex items-center justify-center bg-[#132137] text-white border border-[#1E293B] font-semibold px-8 py-4 rounded-lg hover:bg-[#1D2A41] hover:border-white/40 transition-all duration-300 w-full sm:w-auto active:scale-95">
             Lihat Karya &amp; Jejak Kami
-          </a>
+          </router-link>
         </div>
         
         <div class="flex items-center justify-center gap-2 text-[#94A3B8] text-[14px]">

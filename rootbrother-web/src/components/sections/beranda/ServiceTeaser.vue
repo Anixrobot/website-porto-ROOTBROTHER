@@ -12,15 +12,15 @@
       <p class="text-rb-text-dark text-sm max-w-lg">
         Solusi rekayasa digital terarah yang dirancang untuk performa, stabilitas tinggi, serta pengalaman pengguna yang optimal.
       </p>
-      <a href="#" class="text-rb-emerald text-sm font-semibold hover:text-rb-cyan transition-colors whitespace-nowrap">
-        Lihat Semua Layanan &rarr;
-      </a>
+      <router-link to="/layanan" class="text-rb-emerald text-sm font-semibold hover:text-rb-cyan transition-colors whitespace-nowrap inline-flex items-center gap-1 group">
+        Lihat Semua Layanan <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+      </router-link>
     </div>
 
     <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
       <!-- Card 1 -->
-      <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col">
-        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
+      <router-link to="/layanan" class="group bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col hover:border-rb-emerald/40 hover:-translate-y-1 transition-all duration-300">
+        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg group-hover:border-rb-emerald/40 group-hover:shadow-[0_0_15px_rgba(78,222,163,0.2)] transition-all">
           &lt;/&gt;
         </div>
         <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">Website &amp; Web App</h3>
@@ -29,13 +29,13 @@
         </p>
         <div class="flex items-center justify-between mt-6 pt-4 border-t border-[rgba(78,222,163,0.08)]">
           <span class="text-rb-text-dark text-xs font-mono tracking-wide uppercase">01 // ENGINEERING</span>
-          <span class="text-rb-emerald text-lg">&nearr;</span>
+          <span class="text-rb-emerald text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">&nearr;</span>
         </div>
-      </div>
+      </router-link>
 
       <!-- Card 2 -->
-      <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col">
-        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
+      <router-link to="/layanan" class="group bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col hover:border-rb-emerald/40 hover:-translate-y-1 transition-all duration-300">
+        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg group-hover:border-rb-emerald/40 group-hover:shadow-[0_0_15px_rgba(78,222,163,0.2)] transition-all">
           &starf;
         </div>
         <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">UI/UX &amp; Brand System</h3>
@@ -44,13 +44,13 @@
         </p>
         <div class="flex items-center justify-between mt-6 pt-4 border-t border-[rgba(78,222,163,0.08)]">
           <span class="text-rb-text-dark text-xs font-mono tracking-wide uppercase">02 // EXPERIENCE</span>
-          <span class="text-rb-emerald text-lg">&nearr;</span>
+          <span class="text-rb-emerald text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">&nearr;</span>
         </div>
-      </div>
+      </router-link>
 
       <!-- Card 3 -->
-      <div class="bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col">
-        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg">
+      <router-link to="/layanan" class="group bg-rb-dark-card border border-[rgba(78,222,163,0.1)] rounded-2xl p-6 flex flex-col hover:border-rb-emerald/40 hover:-translate-y-1 transition-all duration-300">
+        <div class="w-12 h-12 border border-[rgba(78,222,163,0.15)] rounded-xl flex items-center justify-center text-rb-emerald text-lg group-hover:border-rb-emerald/40 group-hover:shadow-[0_0_15px_rgba(78,222,163,0.2)] transition-all">
           &#9729;
         </div>
         <h3 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] font-bold text-lg mt-5">Cloud &amp; Integrasi API</h3>
@@ -59,9 +59,9 @@
         </p>
         <div class="flex items-center justify-between mt-6 pt-4 border-t border-[rgba(78,222,163,0.08)]">
           <span class="text-rb-text-dark text-xs font-mono tracking-wide uppercase">03 // INFRASTRUCTURE</span>
-          <span class="text-rb-emerald text-lg">&nearr;</span>
+          <span class="text-rb-emerald text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">&nearr;</span>
         </div>
-      </div>
+      </router-link>
     </div>
   </section>
 </template>

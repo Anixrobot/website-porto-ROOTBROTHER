@@ -1,5 +1,16 @@
 <script setup>
+import { ref } from 'vue'
 import logoImg from '@/assets/logo-rootbrother.png'
+
+const activeModal = ref(null) // 'privasi' | 'syarat' | 'status' | null
+
+const openModal = (type) => {
+  activeModal.value = type
+}
+
+const closeModal = () => {
+  activeModal.value = null
+}
 </script>
 
 <template>
@@ -37,6 +48,7 @@ import logoImg from '@/assets/logo-rootbrother.png'
             <li><router-link to="/portfolio" class="text-rb-text-dark text-sm hover:text-white transition-colors">Portfolio & Testimoni Klien</router-link></li>
             <li><router-link to="/cara-kerja" class="text-rb-text-dark text-sm hover:text-white transition-colors">Metode & Alur Kerja</router-link></li>
             <li><router-link to="/tentang" class="text-rb-text-dark text-sm hover:text-white transition-colors">Tentang Rootbrother</router-link></li>
+            <li><router-link to="/kontak" class="text-rb-text-dark text-sm hover:text-white transition-colors">Kontak &amp; Konsultasi</router-link></li>
           </ul>
         </div>
 
@@ -91,14 +103,134 @@ import logoImg from '@/assets/logo-rootbrother.png'
           © 2025 ROOTBROTHER DIGITAL SERVICE. All rights reserved. Terhubung. Tumbuh. Berakar Kuat.
         </div>
         <div class="text-rb-text-dark text-xs flex items-center gap-2">
-          <router-link to="/privasi" class="hover:text-white transition-colors">Kebijakan Privasi</router-link>
+          <button @click="openModal('privasi')" class="hover:text-white transition-colors cursor-pointer">Kebijakan Privasi</button>
           <span>&middot;</span>
-          <router-link to="/syarat" class="hover:text-white transition-colors">Syarat Layanan</router-link>
+          <button @click="openModal('syarat')" class="hover:text-white transition-colors cursor-pointer">Syarat Layanan</button>
           <span>&middot;</span>
-          <router-link to="/status" class="hover:text-white transition-colors">Status Sistem</router-link>
+          <button @click="openModal('status')" class="hover:text-white transition-colors cursor-pointer flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-rb-emerald animate-pulse"></span>
+            Status Sistem
+          </button>
         </div>
       </div>
 
+    </div>
+
+    <!-- Interactive Footer Modals -->
+    <div 
+      v-if="activeModal" 
+      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in"
+      @click.self="closeModal"
+    >
+      <div class="bg-[#0E1B32] border border-[#1E293B] rounded-2xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl text-white">
+        <!-- Close Button -->
+        <button 
+          @click="closeModal" 
+          class="absolute top-5 right-5 text-[#94A3B8] hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors cursor-pointer"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+
+        <!-- 1. Kebijakan Privasi Content -->
+        <div v-if="activeModal === 'privasi'">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rb-emerald/10 text-rb-emerald text-xs font-semibold mb-4">
+            🔒 KEAMANAN &amp; PRIVASI
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">
+            Kebijakan Privasi Rootbrother
+          </h3>
+          <div class="text-sm text-rb-text-dark space-y-3 max-h-[60vh] overflow-y-auto pr-2">
+            <p>
+              Di <strong>ROOTBROTHER DIGITAL SERVICE</strong>, privasi dan kedaulatan data klien adalah prioritas nomor satu.
+            </p>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">1. Non-Disclosure Agreement (NDA)</h4>
+              <p class="text-xs text-rb-text-dark">Seluruh data bisnis, skema ide, dan database terlindungi otomatis di bawah klausul kerahasiaan ketat sejak sesi konsultasi awal.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">2. Kedaulatan Source Code</h4>
+              <p class="text-xs text-rb-text-dark">Kami tidak pernah menjual kembali kode sumber, aset visual, atau proprietary logic proyek Anda kepada pihak ketiga.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">3. Keamanan Data Cloud</h4>
+              <p class="text-xs text-rb-text-dark">Penyimpanan kredensial server dan API keys menggunakan standard enkripsi tingkat tinggi (AES-256) tanpa logging plaintext.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Syarat Layanan Content -->
+        <div v-else-if="activeModal === 'syarat'">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rb-emerald/10 text-rb-emerald text-xs font-semibold mb-4">
+            📜 TRANSPARANSI KERJASAMA
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">
+            Syarat &amp; Ketentuan Layanan
+          </h3>
+          <div class="text-sm text-rb-text-dark space-y-3 max-h-[60vh] overflow-y-auto pr-2">
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">1. Kepemilikan Penuh Klien</h4>
+              <p class="text-xs text-rb-text-dark">Setelah pelunasan proyek, 100% hak cipta, repositori Git, dan akses server didelegasikan seutuhnya kepada Anda tanpa vendor lock-in.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">2. Garansi Maintenance 3 Bulan</h4>
+              <p class="text-xs text-rb-text-dark">Garansi perbaikan bug dan penyesuaian minor gratis selama 90 hari kalender sejak website go-live.</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B]">
+              <h4 class="text-white font-semibold text-xs mb-1 uppercase tracking-wider text-rb-emerald">3. Transparansi Biaya</h4>
+              <p class="text-xs text-rb-text-dark">Semua estimasi biaya disepakati di awal di dalam proposal transparan. Tidak ada biaya tersembunyi selama sprint berjalan.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Status Sistem Content -->
+        <div v-else-if="activeModal === 'status'">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rb-emerald/10 text-rb-emerald text-xs font-semibold mb-4">
+            ⚡ LIVE STATUS MONITOR
+          </div>
+          <h3 class="text-2xl font-bold mb-4 text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">
+            Status Sistem Rootbrother
+          </h3>
+          <div class="text-sm text-rb-text-dark space-y-3">
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B] flex items-center justify-between">
+              <div>
+                <p class="text-white font-semibold text-sm">Vite Production Cluster</p>
+                <p class="text-xs text-rb-text-dark">Edge CDN Global Nodes</p>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-medium">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Operasional
+              </span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B] flex items-center justify-between">
+              <div>
+                <p class="text-white font-semibold text-sm">SSL &amp; Security Layer</p>
+                <p class="text-xs text-rb-text-dark">TLS 1.3 Strict Enforced</p>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-medium">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> 100% Aktif
+              </span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-[#132137] border border-[#1E293B] flex items-center justify-between">
+              <div>
+                <p class="text-white font-semibold text-sm">WhatsApp &amp; Support Gateway</p>
+                <p class="text-xs text-rb-text-dark">Latency Rata-rata ~18ms</p>
+              </div>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-medium">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Online
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Footer Close Button -->
+        <div class="mt-6 pt-4 border-t border-[#1E293B] flex justify-end">
+          <button 
+            @click="closeModal" 
+            class="bg-rb-emerald hover:bg-rb-emerald-hover text-white text-xs font-semibold px-5 py-2.5 rounded-full transition-all cursor-pointer"
+          >
+            Tutup
+          </button>
+        </div>
+      </div>
     </div>
   </footer>
 </template>

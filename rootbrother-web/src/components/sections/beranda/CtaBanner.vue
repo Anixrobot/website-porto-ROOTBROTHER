@@ -8,12 +8,17 @@
         </p>
       </div>
       <div class="flex items-center gap-4 flex-wrap">
-        <button class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-colors inline-flex items-center gap-2">
+        <a 
+          href="https://wa.me/6281929923805?text=Halo%20Rootbrother,%20saya%20ingin%20konsultasi%20mengenai%20solusi%20digital" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-all duration-300 inline-flex items-center gap-2 hover:shadow-[0_0_20px_rgba(78,222,163,0.4)] active:scale-95"
+        >
           <span>&#128172;</span> Konsultasi WhatsApp
-        </button>
-        <a href="#" class="text-rb-text-dark text-sm font-medium hover:text-white transition-colors">
-          Pelajari Alur Kerja
         </a>
+        <router-link to="/cara-kerja" class="text-rb-text-dark text-sm font-medium hover:text-white transition-colors inline-flex items-center gap-1 group">
+          Pelajari Alur Kerja <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+        </router-link>
       </div>
     </div>
   </section>

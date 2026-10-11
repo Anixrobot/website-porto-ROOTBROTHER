@@ -102,7 +102,15 @@
 
         <div class="flex items-center justify-between mt-auto">
           <p class="text-[#94A3B8] text-[16px]">Pacific Century Place Lt. 21, SCBD</p>
-          <a href="#" class="text-[#4EDEA3] text-[16px] font-medium hover:underline">Buka di Peta</a>
+          <a 
+            href="https://maps.google.com/?q=Pacific+Century+Place+SCBD+Jakarta" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="text-[#4EDEA3] text-[16px] font-medium hover:underline inline-flex items-center gap-1 group"
+          >
+            <span>Buka di Peta</span>
+            <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+          </a>
         </div>
       </div>
 

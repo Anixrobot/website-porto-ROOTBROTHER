@@ -22,12 +22,12 @@ import logoImg from '@/assets/logo-rootbrother.png'
         </p>
 
         <div class="mt-8 flex flex-wrap items-center gap-4">
-          <button class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors inline-flex items-center gap-2">
+          <router-link to="/kontak" class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-6 py-3 rounded-full transition-all duration-300 inline-flex items-center gap-2 hover:shadow-[0_0_20px_rgba(78,222,163,0.4)] active:scale-95">
             Mulai Proyek &rarr;
-          </button>
-          <button class="text-white font-semibold text-sm px-6 py-3 rounded-full border border-white/20 hover:border-white/40 transition-colors">
+          </router-link>
+          <router-link to="/portfolio" class="text-white font-semibold text-sm px-6 py-3 rounded-full border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300 inline-flex items-center active:scale-95">
             Lihat Portofolio
-          </button>
+          </router-link>
         </div>
 
         <div class="mt-10">

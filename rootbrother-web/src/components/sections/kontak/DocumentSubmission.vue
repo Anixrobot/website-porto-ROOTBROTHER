@@ -11,9 +11,12 @@
         </p>
       </div>
 
-      <a href="mailto:contact@rootbrother.com" class="inline-flex items-center gap-2 bg-[#132137] border border-[#1E293B] text-[#FFFFFF] font-medium px-6 py-3 rounded-lg hover:bg-[#1D2A41] transition-colors whitespace-nowrap">
-        Kirim Dokumen via Email
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+      <a 
+        href="mailto:contact@rootbrother.com?subject=Pengajuan%20Dokumen%20SRS%20%2F%20RFP%20Proyek%20-%20Rootbrother&body=Halo%20Tim%20Rootbrother,%0A%0ASaya%20ingin%20mengirimkan%20dokumen%20spesifikasi%20proyek%20(SRS%20%2F%20RFP)%20untuk%20dikaji.%0A%0ANama%20Saya:%20%0ANama%20Bisnis:%20%0ANo.%20WhatsApp:%20%0A%0ATerima%20kasih." 
+        class="inline-flex items-center gap-2 bg-[#132137] border border-[#1E293B] text-[#FFFFFF] font-medium px-6 py-3 rounded-lg hover:bg-[#1D2A41] hover:border-rb-emerald/40 transition-all duration-300 whitespace-nowrap active:scale-95"
+      >
+        <span>Kirim Dokumen via Email</span>
+        <svg class="w-5 h-5 text-rb-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
       </a>
 
     </div>

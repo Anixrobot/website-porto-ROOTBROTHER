@@ -47,9 +47,13 @@ const filteredServices = computed(() => {
         </div>
 
         <div class="mt-6 pt-4 border-t border-[rgba(78,222,163,0.08)]">
-          <a href="#" class="text-rb-emerald text-sm font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-            Konsultasikan Layanan &rarr;
-          </a>
+          <router-link 
+            :to="{ path: '/kontak', query: { service: service.title }, hash: '#brief' }" 
+            class="text-rb-emerald text-sm font-semibold flex items-center gap-2 hover:gap-3 transition-all hover:text-white group"
+          >
+            <span>Konsultasikan Layanan</span>
+            <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+          </router-link>
         </div>
       </div>
     </div>

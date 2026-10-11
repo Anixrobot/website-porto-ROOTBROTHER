@@ -11,12 +11,12 @@
         Diskusikan skenario sistem unik, integrasi perangkat keras pihak ketiga, atau skala enterprise langsung bersama tim engineer kami.
       </p>
       <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <button class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-6 py-3 rounded-full transition-colors">
+        <router-link to="/kontak" class="bg-rb-emerald hover:bg-rb-emerald-hover text-white font-semibold text-sm px-6 py-3 rounded-full transition-all duration-300 inline-flex items-center gap-2 hover:shadow-[0_0_20px_rgba(78,222,163,0.4)] active:scale-95">
           Konsultasi Sekarang &rarr;
-        </button>
-        <button class="border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-full hover:border-white/40 transition-colors">
+        </router-link>
+        <router-link to="/portfolio" class="border border-white/20 text-white font-semibold text-sm px-6 py-3 rounded-full hover:border-white/40 hover:bg-white/5 transition-all duration-300 inline-flex items-center active:scale-95">
           Lihat Contoh Hasil
-        </button>
+        </router-link>
       </div>
     </div>
   </section>

@@ -1,6 +1,7 @@
 <script setup>
 import KontakHero from '../components/sections/kontak/KontakHero.vue'
 import ContactChannels from '../components/sections/kontak/ContactChannels.vue'
+import ProjectForm from '../components/sections/kontak/ProjectForm.vue'
 import TrustBadges from '../components/sections/kontak/TrustBadges.vue'
 import DocumentSubmission from '../components/sections/kontak/DocumentSubmission.vue'
 import OverlayBlur from '../components/ui/OverlayBlur.vue'
@@ -20,6 +21,12 @@ import OverlayBlur from '../components/ui/OverlayBlur.vue'
     <div class="relative z-10 flex flex-col grow">
       <KontakHero />
       <ContactChannels />
+      
+      <!-- Interactive Project Brief Form -->
+      <div id="brief" class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-10 scroll-mt-20">
+        <ProjectForm />
+      </div>
+
       <TrustBadges />
       <div class="grow"></div>
       <DocumentSubmission />
