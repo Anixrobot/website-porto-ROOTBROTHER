@@ -30,7 +30,7 @@ export const services = [
   {
     id: 4,
     icon: '💰',
-    title: 'Catatan Keuangan & Aplikasi Kasir Pintar',
+    title: 'Catatan Keuangan & POS Digital',
     category: 'Finansial',
     filterTag: 'cloud',
     desc: 'Aplikasi kasir pintar dan rekonsiliasi finansial otomatis dengan pembukuan real-time, manajemen inventaris, dan cetak struk multi-kanal.',

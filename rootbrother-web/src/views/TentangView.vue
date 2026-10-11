@@ -35,4 +35,3 @@ import OverlayBlur from '../components/ui/OverlayBlur.vue'
     </div>
   </div>
 </template>
-\n

@@ -14,11 +14,11 @@ const closeModal = () => {
 </script>
 
 <template>
-  <footer class="bg-rb-dark border-t border-[rgba(78,222,163,0.1)] pt-16 pb-8">
-    <div class="w-full px-6 md:px-12 lg:px-24 2xl:px-32">
+  <footer class="bg-rb-dark border-t border-[rgba(78,222,163,0.1)] pt-10 sm:pt-16 pb-6 sm:pb-8">
+    <div class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32">
       
       <!-- Top section -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
         
         <!-- Column 1 - Brand -->
         <div class="flex flex-col">
@@ -98,7 +98,7 @@ const closeModal = () => {
       </div>
 
       <!-- Bottom bar -->
-      <div class="border-t border-[rgba(78,222,163,0.1)] mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="border-t border-[rgba(78,222,163,0.1)] mt-8 sm:mt-12 pt-4 sm:pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="text-rb-text-dark text-xs text-center md:text-left">
           © 2025 ROOTBROTHER DIGITAL SERVICE. All rights reserved. Terhubung. Tumbuh. Berakar Kuat.
         </div>

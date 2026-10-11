@@ -17,7 +17,7 @@ watch(
 
 <template>
   <nav class="fixed top-0 w-full z-50 bg-rb-dark/95 backdrop-blur-md border-b border-[rgba(78,222,163,0.1)]">
-    <div class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 h-16 flex items-center justify-between">
+    <div class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32 h-16 flex items-center justify-between">
       
       <!-- LEFT - Logo area -->
       <router-link to="/" class="flex items-center gap-3">
@@ -68,14 +68,14 @@ watch(
         v-for="link in navLinks"
         :key="link.path"
         :to="link.path"
-        class="block px-6 py-3 text-sm transition-colors"
+        class="block px-4 sm:px-6 py-2.5 sm:py-3 text-sm transition-colors"
         :class="[
           route.path === link.path ? 'text-rb-emerald font-semibold' : 'text-rb-text-dark'
         ]"
       >
         {{ link.name }}
       </router-link>
-      <div class="px-6 py-4 mt-2 border-t border-[rgba(78,222,163,0.1)]">
+      <div class="px-4 sm:px-6 py-3 sm:py-4 mt-2 border-t border-[rgba(78,222,163,0.1)]">
         <router-link :to="{ path: '/kontak', hash: '#brief' }" class="inline-flex border border-rb-emerald text-rb-emerald text-sm font-semibold px-5 py-2 rounded-full hover:bg-rb-emerald hover:text-white transition-all duration-300">
           Mulai Proyekmu
         </router-link>

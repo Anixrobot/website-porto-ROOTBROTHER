@@ -11,10 +11,10 @@ const filteredProjects = computed(() => {
 </script>
 
 <template>
-  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-12">
+  <section class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32 py-8 sm:py-12">
     <div 
       :class="[
-        'grid gap-8',
+        'grid gap-6 sm:gap-8',
         filteredProjects.length === 1 ? 'grid-cols-1 max-w-3xl mx-auto' : 'grid-cols-1 md:grid-cols-2'
       ]"
     >
@@ -24,7 +24,7 @@ const filteredProjects = computed(() => {
         class="group bg-[#0E1B32] border border-[#1E293B] rounded-2xl overflow-hidden flex flex-col hover:border-[#4EDEA3]/50 transition-all duration-300"
       >
         <!-- Image Container -->
-        <div class="h-[260px] bg-[#1D2A41] relative overflow-hidden flex items-center justify-center">
+        <div class="h-[180px] sm:h-[220px] md:h-[260px] bg-[#1D2A41] relative overflow-hidden flex items-center justify-center">
           <img 
             v-if="project.image" 
             :src="project.image" 
@@ -38,11 +38,11 @@ const filteredProjects = computed(() => {
           <div class="absolute inset-0 bg-gradient-to-t from-[#0E1B32] via-transparent to-transparent opacity-80"></div>
 
           <!-- Top Left Tags -->
-          <div class="absolute top-4 left-4 flex gap-2 z-10">
+          <div class="absolute top-3 sm:top-4 left-3 sm:left-4 flex gap-1.5 sm:gap-2 z-10">
             <span 
               v-for="tag in project.tags.slice(0, 2)" 
               :key="tag" 
-              class="bg-[#1D2A41]/80 backdrop-blur-md text-[#94A3B8] border border-[#1E293B] text-[10px] font-medium px-2 py-1 rounded-md"
+              class="bg-[#1D2A41]/80 backdrop-blur-md text-[#94A3B8] border border-[#1E293B] text-[9px] sm:text-[10px] font-medium px-2 py-0.5 sm:py-1 rounded-md"
             >
               {{ tag }}
             </span>
@@ -50,18 +50,18 @@ const filteredProjects = computed(() => {
         </div>
 
         <!-- Content Area -->
-        <div class="p-6 flex flex-col grow relative z-20 -mt-2">
+        <div class="p-4 sm:p-6 flex flex-col grow relative z-20 -mt-2">
           
-          <div class="flex justify-between items-start mb-3">
-            <h3 class="text-xl font-bold text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] leading-snug pr-4">
+          <div class="flex justify-between items-start mb-2 sm:mb-3">
+            <h3 class="text-base sm:text-xl font-bold text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] leading-snug pr-3 sm:pr-4">
               {{ project.title.split(' - ')[0] }}
             </h3>
-            <span class="text-[#94A3B8] text-[10px] font-mono shrink-0 pt-1">
+            <span class="text-[#94A3B8] text-[9px] sm:text-[10px] font-mono shrink-0 pt-0.5 sm:pt-1">
               {{ project.metric?.value || project.year }}
             </span>
           </div>
           
-          <p class="text-[#94A3B8] text-[14px] leading-relaxed mb-6 grow">
+          <p class="text-[#94A3B8] text-xs sm:text-[14px] leading-relaxed mb-4 sm:mb-6 grow">
             {{ project.description }}
           </p>
           

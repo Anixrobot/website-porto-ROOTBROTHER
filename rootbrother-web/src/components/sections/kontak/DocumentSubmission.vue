@@ -1,22 +1,22 @@
 <template>
-  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-10 w-full">
-    <div class="bg-[#0E1B32] border border-[#1E293B] rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6 hover:border-[#4EDEA3]/30 transition-all duration-300">
+  <section class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32 py-6 sm:py-10 w-full">
+    <div class="bg-[#0E1B32] border border-[#1E293B] rounded-xl sm:rounded-2xl p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 hover:border-[#4EDEA3]/30 transition-all duration-300">
       
-      <div class="flex items-center gap-4">
-        <div class="w-10 h-10 rounded-full bg-[#1D2A41] border border-[#1E293B] flex items-center justify-center shrink-0">
-          <svg class="w-5 h-5 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <div class="flex items-center gap-3 sm:gap-4 text-left">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#1D2A41] border border-[#1E293B] flex items-center justify-center shrink-0">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#4EDEA3]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
         </div>
-        <p class="text-[#FFFFFF] text-[16px] font-medium">
+        <p class="text-[#FFFFFF] text-xs sm:text-sm md:text-[16px] font-medium">
           Punya dokumen SRS atau RFP yang sudah siap dikaji secara detail?
         </p>
       </div>
 
       <a 
         href="mailto:contact@rootbrother.com?subject=Pengajuan%20Dokumen%20SRS%20%2F%20RFP%20Proyek%20-%20Rootbrother&body=Halo%20Tim%20Rootbrother,%0A%0ASaya%20ingin%20mengirimkan%20dokumen%20spesifikasi%20proyek%20(SRS%20%2F%20RFP)%20untuk%20dikaji.%0A%0ANama%20Saya:%20%0ANama%20Bisnis:%20%0ANo.%20WhatsApp:%20%0A%0ATerima%20kasih." 
-        class="inline-flex items-center gap-2 bg-[#132137] border border-[#1E293B] text-[#FFFFFF] font-medium px-6 py-3 rounded-lg hover:bg-[#1D2A41] hover:border-rb-emerald/40 transition-all duration-300 whitespace-nowrap active:scale-95"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#132137] border border-[#1E293B] text-[#FFFFFF] font-medium px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm rounded-lg hover:bg-[#1D2A41] hover:border-rb-emerald/40 transition-all duration-300 whitespace-nowrap active:scale-95"
       >
         <span>Kirim Dokumen via Email</span>
-        <svg class="w-5 h-5 text-rb-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-rb-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
       </a>
 
     </div>

@@ -4,6 +4,8 @@ import { useRoute } from 'vue-router'
 import LayananHero from '../components/sections/layanan/LayananHero.vue'
 import LayananGrid from '../components/sections/layanan/LayananGrid.vue'
 import AlurRekayasa from '../components/sections/layanan/AlurRekayasa.vue'
+import PaketPricing from '../components/sections/layanan/PaketPricing.vue'
+import PerbandinganPaket from '../components/sections/layanan/PerbandinganPaket.vue'
 import LayananCta from '../components/sections/layanan/LayananCta.vue'
 import OverlayBlur from '../components/ui/OverlayBlur.vue'
 
@@ -27,13 +29,21 @@ watch(() => route.query.filter, (newFilter) => {
     <!-- 3. Alur Rekayasa Overlay (Right) -->
     <OverlayBlur class="top-[1400px] -right-24 w-[650px] max-w-[85vw] h-[380px]" opacity="opacity-20" blur="blur-[140px]" />
     
-    <!-- 4. Layanan CTA Overlay (Bottom) -->
+    <!-- 4. Pricing Overlay (Center / Left) -->
+    <OverlayBlur class="top-[2100px] left-1/4 -translate-x-1/2 w-[700px] max-w-[90vw] h-[420px]" opacity="opacity-25" blur="blur-[140px]" />
+
+    <!-- 5. Perbandingan Overlay (Right) -->
+    <OverlayBlur class="top-[2800px] -right-20 w-[650px] max-w-[85vw] h-[380px]" opacity="opacity-20" blur="blur-[130px]" />
+
+    <!-- 6. Layanan CTA Overlay (Bottom) -->
     <OverlayBlur class="bottom-[100px] left-1/2 -translate-x-1/2 w-[720px] max-w-[90vw] h-[340px]" opacity="opacity-25" blur="blur-[130px]" />
 
     <div class="relative z-10">
       <LayananHero :activeFilter="activeFilter" @update:filter="activeFilter = $event" />
       <LayananGrid :activeFilter="activeFilter" />
       <AlurRekayasa />
+      <PaketPricing />
+      <PerbandinganPaket />
       <LayananCta />
     </div>
   </div>

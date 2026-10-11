@@ -31,27 +31,27 @@ const props = defineProps({
     </div>
 
     <!-- Center area -->
-    <div class="absolute inset-0 flex flex-col items-center justify-center z-10">
-      <img :src="logoImg" alt="Rootbrother Logo" class="w-36 h-36 md:w-40 md:h-40 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.3)] object-contain p-1" />
+    <div class="absolute inset-0 flex flex-col items-center justify-center z-10 px-4 animate-load-fade-in">
+      <img :src="logoImg" alt="Rootbrother Logo" class="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full ring-2 ring-[#4EDEA3]/30 shadow-[0_0_60px_rgba(78,222,163,0.3)] object-contain p-1" />
       
-      <div class="mt-6 bg-rb-emerald/10 text-rb-emerald text-xs font-semibold px-4 py-1 rounded-full border border-rb-emerald/20">
+      <div class="mt-4 sm:mt-6 bg-rb-emerald/10 text-rb-emerald text-[11px] sm:text-xs font-semibold px-3 sm:px-4 py-1 rounded-full border border-rb-emerald/20">
         ● SOLID DIGITAL PRESISI
       </div>
       
-      <h2 class="text-white text-3xl md:text-4xl font-extrabold tracking-tight uppercase mt-5">
+      <h2 class="text-white text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight uppercase mt-3 sm:mt-5">
         WELCOME TO
       </h2>
       
-      <h1 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-4xl md:text-5xl font-black tracking-tight uppercase">
+      <h1 class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE] text-3xl sm:text-4xl md:text-5xl font-black tracking-tight uppercase">
         ROOTBROTHER
       </h1>
       
-      <p class="text-rb-text-dark text-sm tracking-[0.35em] uppercase mt-1">
+      <p class="text-rb-text-dark text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.35em] uppercase mt-1">
         D I G I T A L &nbsp; S E R V I C E
       </p>
       
-      <div class="w-72 mt-8">
-        <div class="flex justify-between items-center mb-2">
+      <div class="w-60 sm:w-72 mt-5 sm:mt-8">
+        <div class="flex justify-between items-center mb-1.5 sm:mb-2">
           <span class="text-rb-emerald text-xs font-mono">♦ Status: Siap!</span>
           <span class="text-rb-emerald text-xs font-mono font-bold">{{ Math.round(progress) }}%</span>
         </div>
@@ -65,12 +65,12 @@ const props = defineProps({
     </div>
 
     <!-- Bottom bar -->
-    <div class="absolute bottom-0 w-full px-6 py-4 flex justify-between items-center z-10">
-      <div class="text-rb-text-dark text-[11px] font-mono">
+    <div class="absolute bottom-0 w-full px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center z-10 text-[10px] sm:text-[11px]">
+      <div class="text-rb-text-dark font-mono truncate max-w-[65%] sm:max-w-none">
         ● "Bertumbuh & Merambat Kuat Bersama Solusi Digital Masa Depan."
       </div>
-      <div class="text-rb-text-dark text-[11px] font-mono">
-        v2.4 Auto-Transition Enabled
+      <div class="text-rb-text-dark font-mono shrink-0">
+        v2.4 Ready
       </div>
     </div>
     
@@ -80,3 +80,20 @@ const props = defineProps({
     </div>
   </div>
 </template>
+
+<style scoped>
+@keyframes loadFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-load-fade-in {
+  animation: loadFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+</style>

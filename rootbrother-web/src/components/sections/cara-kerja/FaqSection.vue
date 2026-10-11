@@ -9,19 +9,19 @@ const faqs = [
 ]
 </script>
 <template>
-  <section class="max-w-3xl mx-auto px-6 py-20">
-    <h2 class="text-2xl font-bold text-white text-center mb-10">Pertanyaan yang Sering Diajukan Klien</h2>
-    <div class="space-y-4">
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 py-10 sm:py-20">
+    <h2 class="text-xl sm:text-2xl font-bold text-white text-center mb-6 sm:mb-10">Pertanyaan yang Sering Diajukan Klien</h2>
+    <div class="space-y-3 sm:space-y-4">
       <div 
         v-for="(faq, idx) in faqs" :key="idx"
         class="border border-[#1E293B] rounded-xl overflow-hidden bg-[#0E1B32] cursor-pointer transition-all"
         @click="openIdx = openIdx === idx ? -1 : idx"
       >
-        <div class="px-6 py-4 flex justify-between items-center font-semibold text-white">
+        <div class="px-4 sm:px-6 py-3.5 sm:py-4 flex justify-between items-center text-sm sm:text-base font-semibold text-white">
           {{ faq.q }}
           <span class="text-rb-emerald font-bold">{{ openIdx === idx ? '−' : '+' }}</span>
         </div>
-        <div v-show="openIdx === idx" class="px-6 pb-4 text-sm text-rb-text-dark border-t border-[#1E293B] pt-3">
+        <div v-show="openIdx === idx" class="px-4 sm:px-6 pb-4 text-xs sm:text-sm text-rb-text-dark border-t border-[#1E293B] pt-3">
           {{ faq.a }}
         </div>
       </div>

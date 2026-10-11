@@ -22,30 +22,52 @@ onMounted(() => {
 </script>
 
 <template>
-  <LoadingScreen v-if="isLoading" :progress="progress" />
-  <div v-else class="min-h-screen flex flex-col bg-rb-dark">
-    <Navbar />
-    <main class="grow">
-      <router-view v-slot="{ Component }">
-        <transition name="fade" mode="out-in">
-          <component :is="Component" />
-        </transition>
-      </router-view>
-    </main>
-    <FooterSection />
-  </div>
+  <transition name="screen-fade" mode="out-in">
+    <LoadingScreen v-if="isLoading" :progress="progress" key="loading-screen" />
+    <div v-else key="main-app" class="min-h-screen flex flex-col bg-rb-dark">
+      <Navbar />
+      <main class="grow">
+        <router-view v-slot="{ Component, route }">
+          <transition name="page-fade" mode="out-in" appear>
+            <component :is="Component" :key="route.path" />
+          </transition>
+        </router-view>
+      </main>
+      <FooterSection />
+    </div>
+  </transition>
 </template>
 
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+/* Transition between Loading Screen & Main Application */
+.screen-fade-enter-active {
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.fade-enter-from {
+.screen-fade-leave-active {
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+.screen-fade-enter-from {
   opacity: 0;
-  transform: translateY(8px);
+  transform: translateY(14px);
 }
-.fade-leave-to {
+.screen-fade-leave-to {
+  opacity: 0;
+  transform: scale(0.98);
+  filter: blur(4px);
+}
+
+/* Smooth Page-to-Page Route Navigation */
+.page-fade-enter-active {
+  transition: opacity 0.38s cubic-bezier(0.16, 1, 0.3, 1), transform 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.page-fade-leave-active {
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.page-fade-enter-from {
+  opacity: 0;
+  transform: translateY(14px);
+}
+.page-fade-leave-to {
   opacity: 0;
   transform: translateY(-8px);
 }

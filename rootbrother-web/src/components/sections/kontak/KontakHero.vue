@@ -1,32 +1,32 @@
 <template>
-  <section class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-10">
+  <section class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32 pt-24 sm:pt-28 pb-6 sm:pb-10">
     <!-- Top Bar -->
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
-      <div class="flex items-center gap-2 text-[#94A3B8] text-[14px]">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 sm:mb-12 gap-3 sm:gap-4">
+      <div class="flex items-center gap-2 text-[#94A3B8] text-xs sm:text-[14px]">
         <router-link to="/" class="inline-flex items-center gap-1.5 hover:text-white transition-colors">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+          <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
           <span>Beranda</span>
         </router-link>
         <span>/</span>
         <span class="text-[#4EDEA3]">Kontak &amp; Konsultasi</span>
       </div>
 
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1D2A41] border border-[#1E293B]">
+      <div class="inline-flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full bg-[#1D2A41] border border-[#1E293B]">
         <span class="w-2 h-2 rounded-full bg-[#4EDEA3]"></span>
-        <span class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.05em]">Engineer On-Duty: Siap Berdiskusi</span>
+        <span class="text-[#4EDEA3] text-[11px] sm:text-[12px] font-semibold tracking-[0.05em]">Engineer On-Duty: Siap Berdiskusi</span>
       </div>
     </div>
 
     <!-- Main Content -->
     <div class="max-w-3xl">
-      <p class="text-[#4EDEA3] text-[12px] font-semibold tracking-[0.1em] uppercase mb-4">SOLUSI DIGITAL BERAKAR KUAT</p>
+      <p class="text-[#4EDEA3] text-[11px] sm:text-[12px] font-semibold tracking-[0.1em] uppercase mb-2 sm:mb-4">SOLUSI DIGITAL BERAKAR KUAT</p>
       
-      <h1 class="text-[#FFFFFF] text-[40px] md:text-[48px] font-bold leading-tight mb-6 tracking-[-1px]">
+      <h1 class="text-[#FFFFFF] text-2xl sm:text-3xl md:text-[40px] lg:text-[48px] font-bold leading-tight mb-3 sm:mb-6 tracking-tight md:tracking-[-1px]">
         Mari Bertumbuh Bersama. <br />
         Mulai Obrolan <span class="text-transparent bg-clip-text text-gradient-hero bg-linear-to-r from-[#34D399] via-[#5EEAD4] to-[#22D3EE]">Proyekmu!</span>
       </h1>
       
-      <p class="text-[#94A3B8] text-[18px] font-normal leading-relaxed">
+      <p class="text-[#94A3B8] text-xs sm:text-base md:text-[18px] font-normal leading-relaxed">
         Diskusikan kebutuhan arsitektur sistem dan aplikasi bisnis Anda bersama tim insinyur kami. Solusi terukur, transparan, dan berorientasi hasil jangka panjang.
       </p>
     </div>

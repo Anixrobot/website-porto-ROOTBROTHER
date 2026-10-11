@@ -23,7 +23,7 @@ import OverlayBlur from '../components/ui/OverlayBlur.vue'
       <ContactChannels />
       
       <!-- Interactive Project Brief Form -->
-      <div id="brief" class="w-full px-6 md:px-12 lg:px-24 2xl:px-32 py-10 scroll-mt-20">
+      <div id="brief" class="w-full px-4 sm:px-6 md:px-12 lg:px-24 2xl:px-32 py-6 sm:py-10 scroll-mt-20">
         <ProjectForm />
       </div>
 
@@ -33,4 +33,3 @@ import OverlayBlur from '../components/ui/OverlayBlur.vue'
     </div>
   </div>
 </template>
-\n
