@@ -21,7 +21,7 @@ export const projects = [
     id: 2,
     title: 'Website Nasi Mentai Menyum',
     category: 'web',
-    tags: ['Web Development', 'UMKM', "Food & Beverage", 'Responsive Design'],
+    tags: ['Food & Beverage', 'UMKM', "Food & Beverage", 'Responsive Design', ],
     year: '2024',
     description: 'Website resmi untuk menjual nasi mentai menyum dengan desain modern dan fitur e-commerce yang memudahkan pelanggan dalam berbelanja.',
     tech: ['React.js', 'JavaScript', 'CSS Tailwind', 'HTML'],
